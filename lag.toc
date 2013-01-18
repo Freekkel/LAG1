@@ -1,22 +1,27 @@
 \select@language {ngerman}
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {0}Grundbegriffe}{1}
 \contentsline {section}{\numberline {0.1}Aussagen}{1}
 \contentsline {subsection}{\numberline {0.1.1}Satz:}{1}
 \contentsline {section}{\numberline {0.2}Mengen}{2}
 \contentsline {subsection}{\numberline {0.2.1}Definition: (Cantor)}{2}
 \contentsline {subsection}{\numberline {0.2.2}Definition:}{2}
+\contentsline {subsubsection}{Bemerkung:}{2}
+\contentsline {subsubsection}{Beispiel:}{3}
 \contentsline {subsection}{\numberline {0.2.3}Definition: (von weiteren Operationen auf Mengen)}{3}
 \contentsline {subsection}{\numberline {0.2.4}Definition: (Relation)}{3}
+\contentsline {subsubsection}{Beispiel:}{4}
 \contentsline {subsection}{\numberline {0.2.5}Definition: (Funktion, $\sim $Abbildung)}{4}
-\contentsline {subsection}{\numberline {0.2.6}Definition: (injektiv, surjektiv, bijektiv)}{4}
+\contentsline {subsubsection}{Beispiel: }{4}
+\contentsline {subsection}{\numberline {0.2.6}Definition: (injektiv, surjektiv, bijektiv)}{5}
 \contentsline {chapter}{\numberline {1}Der Raum $\mathbb {R}^{2}$}{7}
 \contentsline {subsection}{\numberline {1.0.7}Definition:}{7}
 \contentsline {subsection}{\numberline {1.0.8}Definition: (Basis)}{7}
 \contentsline {subsection}{\numberline {1.0.9}Definition: (Determinante)}{7}
 \contentsline {section}{\numberline {1.1}Cramersche Regel}{8}
 \contentsline {subsubsection}{Beweis: }{8}
-\contentsline {subsubsection}{Kollar:}{8}
-\contentsline {subsubsection}{Kollar:}{8}
+\contentsline {subsubsection}{Korollar:}{8}
+\contentsline {subsubsection}{Korollar:}{8}
 \contentsline {section}{\numberline {1.2}Geraden}{8}
 \contentsline {subsection}{\numberline {1.2.1}Definition: (Gerade)}{8}
 \contentsline {subsubsection}{Beispiel: }{8}
@@ -34,3 +39,9 @@
 \contentsline {section}{\numberline {1.4}Inverse Matrix, Basiswechsel}{10}
 \contentsline {subsubsection}{Satz:}{10}
 \contentsline {subsubsection}{Beweis:}{11}
+\contentsline {subsubsection}{Satz:}{11}
+\contentsline {subsubsection}{Beweis:}{11}
+\contentsline {subsubsection}{Beispiel:}{11}
+\contentsline {subsubsection}{Satz:}{11}
+\contentsline {subsubsection}{Beweis:}{12}
+\contentsline {subsubsection}{Beispiel:}{12}
