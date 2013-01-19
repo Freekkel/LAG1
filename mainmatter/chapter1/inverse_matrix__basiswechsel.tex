@@ -57,3 +57,48 @@ $E \neq ABA^{-1}B^{-1}$!
 %
 \subsubsection{Beispiel:}
 $A=\begin{pmatrix} 1 & 12 \\ 2 & 3 \end{pmatrix}$ Frage: Gibt es eine Basis $b_{1}b_{2}: _{\mathcal{B}}A_{\mathcal{B}} = \begin{pmatrix} 7 & 0 \\ 0 & 3 \end{pmatrix}$ Insbesondere $A(b_{1})=7b_{1}$  $\begin{pmatrix}1 & 12 \\ 2 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 7x \\ 7y \end{pmatrix}$ \\
+$\rightarrow
+\begin{array}{rcr}
+x + 12y &=& 7x\\
+2x + 3y &=& 7y\\
+\end{array}
+\mathop{\Rightarrow}\limits^{\text{Cramersche}}_{\text{Regel}} b_{1} = \begin{pmatrix} 2 \\ 1 \end{pmatrix}$\\
+$A(b_{2}) = -3b_{2} \mathop{\Rightarrow}\limits^{\text{Cramersche}}_{\text{Regel}} b_{2} = \begin{pmatrix} 3 \\ -1 \end{pmatrix}$\\
+%
+%
+%
+\subsubsection{Probe:}
+$\begin{pmatrix} -1 & -3 \\ -1 & 2 \end{pmatrix} \cdot \begin{pmatrix} 1 & 12 \\ 2 & 3 \end{pmatrix} \begin{pmatrix}2 & 3 \\ 1 & -1 \end{pmatrix} = \frac{1}{5} \begin{pmatrix} 35 & 0 \\ 0 & -15 \end{pmatrix} = \begin{pmatrix} 7 & 0 \\ 0 & -3 \end{pmatrix}$
+%
+%
+%
+\subsubsection{Satz:}
+Sei $A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ linear. Dann gibt es Basen $\mathcal{B}, \mathcal{C}$ von $\mathbb{R}^{2}$, sodass $_{\mathcal{B}}A_{\mathcal{C}}$ eine der Formen $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$
+%
+%
+%
+\subsubsection{Beweis:}
+Setze $A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \vec{a} \qquad A \begin{pmatrix} 0 \\ 1 \end{pmatrix} = \vec{b}$
+\begin{enumerate}
+	\item $\vec{a} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} = \vec{b} \qquad \mathcal{B} = 
+		\mathcal{E} = \mathcal{C} \checkmark$
+	\item Wenn $\mathcal{A} = (\vec{a},\vec{b})$ Basis, $\mathcal{C}=\mathcal{E} \qquad 
+		\mathcal{B}  = \mathcal{A}$ \\ 
+		$_{\mathcal{A}}A_{\mathcal{B}}=A^{-1}A=\begin{pmatrix} 1 & 0 \\ 0 & 1 
+		\end{pmatrix}$
+		%
+		%
+		%Grafik einfügen
+		%
+		%
+	\item $\vec{a}, \vec{b}$ keine Basis, aber $\vec{a} \neq \begin{pmatrix} 0 \\ 0 
+		\end{pmatrix} \rightarrow \vec{b} = \lambda a$ und $A\begin{pmatrix}\lambda	
+		\\ -1\end{pmatrix} = \lambda \vec{a} - \vec{b} = \begin{pmatrix} 0 \\ 0 
+		\end{pmatrix} \qquad \mathcal{B} = (\vec{a},\vec{a}_{\perp})$\\
+		$_{\mathcal{B}}A_{\mathcal{C}} = B^{-1}A\cdot C = \frac{1}{a_{1}^{2}+a_{2}^{2}} 
+		\begin{pmatrix} a_{1} & a_{2} \\ -a_{2} & a_{1} \end{pmatrix} 
+		\mathop{\underbrace{\begin{pmatrix} a_{1} & b_{1} \\ a_{2} & b_{2} 
+		\end{pmatrix} \begin{pmatrix} 1 & \lambda \\ 0 & -1 
+		\end{pmatrix}}}\limits_{\begin{pmatrix} a_{1} & 0 \\ a_{2} & 0 
+		\end{pmatrix}}=\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$
+\end{enumerate}
