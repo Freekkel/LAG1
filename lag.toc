@@ -65,3 +65,5 @@
 \contentsline {subsubsection}{Beweis:}{14}
 \contentsline {subsubsection}{Kathetensatz}{14}
 \contentsline {subsubsection}{Beweis:}{14}
+\contentsline {section}{\numberline {1.6}Bewegungen}{14}
+\contentsline {subsubsection}{Definition}{14}
