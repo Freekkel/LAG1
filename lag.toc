@@ -68,6 +68,12 @@
 \contentsline {subsubsection}{Definition:}{14}
 \contentsline {subsubsection}{Satz:}{14}
 \contentsline {subsubsection}{Beweis:}{15}
+\contentsline {subsubsection}{Idee:}{15}
+\contentsline {subsubsection}{Fall \MakeUppercase {i}:}{15}
+\contentsline {subsubsection}{Fall \MakeUppercase {ii}:}{15}
+\contentsline {subsubsection}{Satz:}{15}
+\contentsline {subsubsection}{Satz:}{16}
+\contentsline {subsubsection}{Beweis:}{16}
 \contentsline {chapter}{\numberline {2}Der Raum $\mathbb {R}^{3}$}{17}
 \contentsline {subsubsection}{Definition:}{17}
 \contentsline {subsubsection}{Rechenregeln:}{17}

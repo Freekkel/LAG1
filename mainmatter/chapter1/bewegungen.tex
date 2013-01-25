@@ -28,3 +28,65 @@ $\Rightarrow x= cz + sw$\\
 $(z+s)^{2} + (w-c)^{2} = x^{2}+(y-1)^{2}$\\
 $\Leftrightarrow 2sz-2cw = -2y$\\
 $\Rightarrow y = -sz$\\
+$\begin{pmatrix} c & -s \\ s & c \end{pmatrix} \quad \begin{pmatrix} c & s \\ -s & c \end{pmatrix} \quad \begin{pmatrix} z \\ w \end{pmatrix} = \begin{pmatrix} x \\ y \end{pmatrix}$ \\
+$(R_{c,s} = \begin{pmatrix} c & -s \\ s & c \end{pmatrix}, \, S_{c,s} = \begin{pmatrix} c & s \\ s & -c \end{pmatrix})$\\
+%
+%
+%
+\subsubsection{Idee:}
+Spiegelung ges: $\vec{a}: A(\vec{a})=\vec{a}$
+%
+%
+%
+\subsubsection{Fall \RM{1}:} 
+$
+\left\{
+\begin{array}{c l}     
+    cx-sy=x  & s \neq 0 \text{ sonst } \begin{pmatrix} 1 \\ 0 \end{pmatrix}= \begin{pmatrix} c \\ s \end{pmatrix}, x \neq q \text{ (trivial)}\\
+    sx - cy = y &
+\end{array}\right.
+\Leftrightarrow
+\left\{
+\begin{array}{c l}     
+ (c-1)x - sy = 0 & \mathop{\Rightarrow}\limits^{s\neq 0} y = \frac{c-1}{s}x \\
+    sx + (c-a)y=0 & \mathop{\Rightarrow}\limits^{:x} s + \frac{(c-1)^{2}}{s}=0
+\end{array}\right.$\\
+\quad\\
+$1-x^{2} + (c-1)^{2} = 0 \Rightarrow 2 = 2c, \, c=1\Rightarrow s = 0 \qquad\lightning$
+%
+%
+%
+\subsubsection{Fall \RM{2}:}
+$\begin{cases} 
+cx + sy = x  \\ 
+sx -cy = y
+\end{cases}
+\Rightarrow $2. Gleichung ist Folge der Ersten\\
+$y = \frac{1-c}{s}x\rightarrow s^{2} = (1+c)(1-c)\Rightarrow y=\frac{s}{1+c}x$\\
+$\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} c+1 \\ s \end{pmatrix}$ bis auf skalare Vielfache noch zz., dass $R$ und $S$ Isometrien sind:\\
+$\Vert F(\vec{a})\Vert^{2} = (cx-sy)^{2}+(sx+cy)^{2} = c^{2}x^{2}-2cxsy+s^{2}y^{2}+s^{2}x^{2}+2cxsy + c^{2} y^{2} = x^{2}+y^{2}=\Vert\vec{a}\Vert^{2}$ /* $\vec{a}=\begin{pmatrix} x \\ y \end{pmatrix}$\\
+$\Vert R(\vec{a})-R(\vec{b})\Vert = \Vert R (\vec{a}-\vec{b})\Vert = \Vert \vec{a}-\vec{b}\Vert$ \large{Abstandserhaltend !} \normalsize{}\\
+%
+%
+%
+\subsubsection{Satz:}
+\begin{enumerate}
+	\item Das Produkt zweier Spiegelungen ist eine Drehung.
+	\item Jede Drehung lässt sich als Produkt zweier Spiegelungen beschreiben.
+\end{enumerate}
+\begin{enumerate}
+	\item $ \begin{pmatrix} a & b \\ b & -a \end{pmatrix}  \begin{pmatrix} c & d \\ d & -c \end{pmatrix} = \begin{pmatrix} ac+bd & ad-bc \\ bc-ad & bd+ac \end{pmatrix} \Rightarrow$ von Typ $ \begin{pmatrix} c & -s \\ s & c \end{pmatrix} = R_{c,s}$
+	\item $\begin{pmatrix} -s & c \\ c & s \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} c  & -s \\ s & c \end{pmatrix}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Satz:}
+Die Verknüpfung zweier Drehungen ist einer Drehung. \\
+Die Inverse einer Drehung ist eine Drehung. 
+%
+%
+% Grafik einfügen
+%
+%
+\subsubsection{Beweis:}
