@@ -6,7 +6,7 @@
 \usepackage[ngerman]{babel}
 \usepackage[german,figure,linesnumbered,lined]{algorithm2e}
 \usepackage{tikz}
-%\usepackage{tkz-fct}
+\usepackage{tkz-fct}
 \usepackage{color}
 \usepackage{graphics}
 \usepackage{graphicx}
