@@ -1,0 +1,66 @@
+\section{Isometrie}
+$A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$\\
+$\Vert Av \Vert = \Vert v \Vert$\\
+\qquad\\
+ \begin{tabular}{c|c}
+ 	Drehung & Spiegelung \\ \hline
+  	$det(a) = 1$ & $det(A) = 1$ \\ 
+  	$R_{c,s}=\begin{pmatrix} c & -s \\ s & c \end{pmatrix}$ & $S_{c,s} = \begin{pmatrix} c & s \\ s & -c \end{pmatrix}$\\
+ 	$c^{2}+s^{2} = 1$ & $c^{2}+s^{2} = 1$\\
+ \end{tabular}
+ %
+ %
+ %Grafik einfügen
+ %
+ %
+ \subsubsection{Definition (Winkel):}
+ Sind $a,b \in \mathbb{R}^{2}\diagdown \{0\}$ Vektoren dann heißt die eindeutige Drehung $\alpha =R_{c,s}$ mit $\alpha(a)=\lambda\cdot b, \, \lambda \in \mathbb{R}_{\geq 0}$ der Winkel zwischen $a$ und $b$, und wir schreiben $\alpha := < (a,b)$\\
+ Die Summe $\alpha + \beta$ zweier Winkel $\alpha$ und $\beta$ definieren wir als $\alpha + \beta := \alpha \circ \beta$ (beachte $\alpha + \beta = \beta + \alpha$)\\
+ Das negative eines Winkels $\alpha$ definieren wir als $-\alpha := \alpha ^{-1}$ d.h. ist $\alpha = R_{cs} \Rightarrow \alpha^{-1} = R_{c,-s}$ Sind $A,B,C \in \mathbb{R}^{2}$ Punkte, dann definieren wir den Winkel an Punkt $A$ des Tripels $(ABC)$ als < $(B,A,C) := < (B-A,C-A)$. 
+ %
+ %
+ %
+ \subsubsection{Definition (Winkelhalbierende):}
+ Ist $\alpha$ ein Winkel, dann existiert ein Winkel $\beta$ mit $\beta + \beta = \alpha$. Dieser heißt der halbe Winkel zu $\alpha$ oder auch die Winkelhalbierende zu $\alpha$.
+ %
+ %
+ %
+ \subsubsection{Satz:}
+ Ist $\alpha = R_{c,s}$ so kann man $\beta = R_{t,u}$ wählen mit \\
+ $t = \pm \sqrt{\frac{1}{2}(1+c)}, \, u=\sqrt{\frac{1}{2}(1-c)}$ wobei $"`+"' \Leftrightarrow s \geq 0$. 
+ %
+ %
+ %
+ \subsubsection{Beweis:}
+ Nehmen wir an, dass $\alpha = 2 \beta$ mit $\alpha = \begin{pmatrix} c & -s \\ s & c \end{pmatrix}, \, \beta = \begin{pmatrix} t & -u \\ u & t \end{pmatrix}$\\
+ $\Rightarrow \begin{pmatrix} c & -s \\ s & c \end{pmatrix} = \begin{pmatrix} t & -u \\ u & t \end{pmatrix} \begin{pmatrix} t & -s \\ u & t \end{pmatrix} = \begin{pmatrix} t^{2}-u^{2} & -2tu \\ 2tu & t^{2}-u^{2} \end{pmatrix}$\\
+ \qquad\\
+ Es gilt also $c=t^{2}-u^{2}, \, s=2tu$\\ 
+ \qquad\\
+$
+\begin{array}{rcrcr}
+c \cdot 4t^{2} &=& 4t^{4} &-& 4u^{2}t^{2}\\
+ &=& 4t^{4} &-&  s^{2}\\
+ &=& 4t^{4} &-& (1-c^{2})
+\end{array} 
+$\\
+\qquad\\
+\qquad\\
+$ \Rightarrow t^{4} - c\cdot t^{2} - \frac{1}{4}(1-c^{2})=0$\\
+$\mathop{\Rightarrow}\limits^{\text{pq}}t^{2} = \frac{c}{2} \pm \sqrt{\frac{c^{2}}{4}+\frac{1}{4}(1-c^{2})} = \frac{c}{2} \pm \frac{1}{2}=\frac{1}{2}(c\pm 1) \geq 0$\\
+\qquad\\
+Wir wissen $1=c^{2}+s^{2}\geq 0 \Rightarrow  -1 \leq c \leq 1$\\
+wegen $1=t^{2}+u^{2}\Rightarrow 0 \leq t^{2}\leq 1$\\
+Würden oben ein "`-"' stehen, wäre $t^{2} < 0$ für $c<0 \lightning$\\
+$\Rightarrow t^{2} = \frac{1}{2}(c+1) \Rightarrow t = \pm \sqrt{\frac{1}{2}(c+1)}$\\
+Analog folgt $u=\sqrt{\frac{1}{2}(1-c)}$ \\
+$t^{2}-u^{2} = \frac{1}{2}(c+1)-\frac{1}{2}(1-c)=\frac{1}{2}c + \frac{1}{2}c = c$\\
+$2tu=2\cdot(\pm\sqrt{\frac{1}{2}(1+c)\cdot\frac{1}{2}(1-c)} = \pm 2 \sqrt{\frac{1}{4}\mathop{\underbrace{(1-c^{2})}}\limits_{s^{2}}} = \pm \sqrt{s^{2}} = \pm \vert s \vert \mathop{=}\limits^{\text{!}} s$\\
+Die letzte Gleichheit gilt genau dann, wenn $\pm$ das Vorzeichen von $s$ ist (d.h. "`+"' $\Leftrightarrow \, s \geq 0$).\\
+\qquad\\
+Wir messen Winkel, indem wir der Drehung $\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}$ den Wert 180$^{\circ}$ oder $\pi$ zu.\\
+Durch das Halbieren und Addieren von Winkeln können wir jeden Winkel eine Zahl $0^{\circ} \leq x \leq 360^{\circ}$ zuordnen, die wir das Winkelmaß nennen. \\
+z.B. $\frac{1}{3} = \sum\limits^{\infty}_{n=1} \frac{1}{4^{n}}$\\
+Tatsächlich lässt dich jede Zahl $ 0 \leq x \leq 360 $ schreiben als $360^{\circ} \cdot  \sum\limits^{\infty}_{n=1}a_{n}\frac{1}{2^{n}}, \qquad a_{n}\in  \mathbb{N}_{0}$ \\
+Was ist der halbe Winkel zu $\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}$ ?\\
+$R_{t,u}$ mit $t = \pm \sqrt{\frac{1}{2}(1+c)} = 0 \, u = \sqrt{\frac{1}{2}(1-c)} = 1$ d.h. $R_{t,u} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \mathrel{\widehat{=}} 90^{\circ} = \mathop{\alpha}\limits^{\text{\RM{2}}}$
