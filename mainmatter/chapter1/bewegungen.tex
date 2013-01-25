@@ -16,4 +16,15 @@ $A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ Bewegung mit $A\begin{pmatrix} 0 
 %
 \subsubsection{Beweis:}
 $A$ ist Isometrie.\\
-$A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} c \\ s \end{pmatrix}  \quad 
+$A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} c \\ s \end{pmatrix}  \quad A\begin{pmatrix} 0 \\ 1 \end{pmatrix} = \begin{pmatrix} t \\ u \end{pmatrix} \quad A\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} z \ w \end{pmatrix}$\\
+$ c^{2}+s^{2}=1=t^{2}+u^{2}$\\
+$(c-t)^{2} + (s-u)^{2} = 2 = c^{2}  = 2 + c + t^{2} + s^{2} - 2su+u^{2}$ \Huge{\textcolor{red}{?}}\normalsize{} \\
+$=2-2\mathop{\underbrace{(tc+su)}}\limits_{\Rightarrow 0 }$\\
+$\Rightarrow \begin{pmatrix} t \\ u \end{pmatrix} = \lambda \begin{pmatrix} -s \\ c \end{pmatrix}, \lambda = \pm 1$\\
+$A$ linear: z.z. $\begin{pmatrix}z \\ w \end{pmatrix} = \begin{pmatrix} xx \pm sy \\ sx \pm cy \end{pmatrix} x^{2}+y^{2} = z^{2} + w^{2}$\\
+$(x-1)^{2} + y^{2} \mathop{=}\limits^{\text{\RM{1}}} ( z-c)^{2} + (w-s)^{2}$\\
+$\Leftrightarrow x^{2}-2x+1+y^{2} = z^{2}-2zc+c^{2}+w^{2}-2sw+s^{2}$\\
+$\Rightarrow x= cz + sw$\\
+$(z+s)^{2} + (w-c)^{2} = x^{2}+(y-1)^{2}$\\
+$\Leftrightarrow 2sz-2cw = -2y$\\
+$\Rightarrow y = -sz$\\
