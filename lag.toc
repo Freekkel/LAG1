@@ -47,7 +47,7 @@
 \contentsline {subsubsection}{Probe:}{12}
 \contentsline {subsubsection}{Satz:}{12}
 \contentsline {subsubsection}{Beweis:}{12}
-\contentsline {section}{\numberline {1.5}Satz von Pythagoras, L\IeC {\"a}nge und Skalarprodukt}{12}
+\contentsline {section}{\numberline {1.5}Satz von Pythagoras, L\IeC {\"a}nge und Skalarprodukt}{13}
 \contentsline {subsection}{\numberline {1.5.1}Satz des Pythagoras (1. Version)}{13}
 \contentsline {subsubsection}{Beweis:}{13}
 \contentsline {subsubsection}{Definition:}{13}
@@ -56,7 +56,7 @@
 \contentsline {subsubsection}{Eigenschaften des Skalarprodukts}{13}
 \contentsline {subsection}{\numberline {1.5.2}Pythagoras (allgemein)}{13}
 \contentsline {subsubsection}{Beweis:}{13}
-\contentsline {subsection}{\numberline {1.5.3}Satz des Thales}{13}
+\contentsline {subsection}{\numberline {1.5.3}Satz des Thales}{14}
 \contentsline {subsubsection}{Beweis:}{14}
 \contentsline {subsubsection}{Satz:}{14}
 \contentsline {subsubsection}{Beweis:}{14}
@@ -66,12 +66,12 @@
 \contentsline {subsubsection}{Beweis:}{14}
 \contentsline {section}{\numberline {1.6}Bewegungen}{14}
 \contentsline {subsubsection}{Definition:}{14}
-\contentsline {subsubsection}{Satz:}{14}
+\contentsline {subsubsection}{Satz:}{15}
 \contentsline {subsubsection}{Beweis:}{15}
 \contentsline {subsubsection}{Idee:}{15}
 \contentsline {subsubsection}{Fall \MakeUppercase {i}:}{15}
 \contentsline {subsubsection}{Fall \MakeUppercase {ii}:}{15}
-\contentsline {subsubsection}{Satz:}{15}
+\contentsline {subsubsection}{Satz:}{16}
 \contentsline {subsubsection}{Satz:}{16}
 \contentsline {subsubsection}{Beweis:}{16}
 \contentsline {chapter}{\numberline {2}Der Raum $\mathbb {R}^{3}$}{17}
