@@ -14,17 +14,18 @@ $A\cdot A^{-1} = \begin{pmatrix}a_{1} & b_{1} \\ a_{2} & b_{2} \end{pmatrix} \cd
 $ = \frac{1}{det(a)} \cdot \begin{pmatrix} det(A) & 0 \\ 0 & det(A) \end{pmatrix}$\\
 $= \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$\\
 $A^{-1}\cdot A$ analog $\Rightarrow A^{-1} \cdot A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ \\
-$\mathcal{B} = (\vec{b_{1}}, \vec{b_{2}})$ Basis $ \leadsto \begin{pmatrix} b_{11} & b_{21} \\ b_{12} & b_{22} \end{pmatrix} = B$\\
-$\vec{a} = x_{1}\vec{b_{1}} = B\vec{x} : \vec{x} = B^{-1}\vec{a}$\\
-Die Koordinaten von $a$ bzgl. $B$ sind durch $B^{-1}(\vec{a})$ gegeben.\\
-$\mathcal{C} = ( c_{1}, c_{2}) \, A$ ist bestimmt durch $A(c_{1})$ und $A(c_{2})$. \\
+$\mathcal{B} = (\vec{b_{1}}, \vec{b_{2}})$ Basis $ \leadsto \begin{pmatrix} b_{11} & b_{21} \\ b_{12} & b_{22} \end{pmatrix} = B \qquad \vec{b_{1}} = \begin{pmatrix} b_{11} \\ b_{12} \end{pmatrix}, \qquad \vec{b_{2}}=\begin{pmatrix} b_{21} \\ b_{22} \end{pmatrix}$\\
+%$\vec{a} = x_{1}\vec{b_{1}} = B\vec{x} : \vec{x} = B^{-1}\vec{a}$\\
+Die Koordinaten von $a$ bzgl. $\mathcal{B}$ sind durch $B^{-1}(\vec{a})$ gegeben, denn man muss das Gleichungssystem $x_{1}b_{1}+x_{2}b_{2}=a$ nach $x_{1}$ und $x_{2}$ lösen. \\
+$\mathcal{C} := ( c_{1}, c_{2}). \, A$ ist bestimmt durch $A(c_{1})$ und $A(c_{2})$. \\
 $A(c_{1}) = d_{11}b_{1}+d_{21}b_{2} \qquad A(c_{2})=d_{12}b_{1}+d_{22}b_{2}$\\
 $_{\mathcal{B}}A_{\mathcal{C}} = \begin{pmatrix}d_{11} & d_{21} \\ d_{12} & d_{22} \end{pmatrix}$ Matrix von $A$ bzgl. $\mathcal{B},\, \mathcal{C}$\\
 %
 %
 %
 \subsubsection{Satz:}
-$\mathcal{B}$ bzw. $\mathcal{C}$ Matrix mit den Spalten $\vec{b_{1}}, \vec{b_{2}}$ bzw. $\vec{c_{1}}, \vec{c_{2}}$ und ist $A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ linear. \\
+$\mathcal{B} = (\vec{b_{1}} \vec{b_{2}}) \qquad \mathcal{C} = (\vec{c_{1}}, \vec{c_{2}})$\\
+$B$ bzw. $C$ Matrix mit den Spalten $\vec{b_{1}}, \vec{b_{2}}$ bzw. $\vec{c_{1}}, \vec{c_{2}}$ und ist $A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ linear. Dann gilt:\\
 $_{\mathcal{B}}A_{\mathcal{C}}=B^{-1}AC$\\
 %
 %
@@ -32,7 +33,7 @@ $_{\mathcal{B}}A_{\mathcal{C}}=B^{-1}AC$\\
 \subsubsection{Beweis:}
 In der ersten Spalte von $C$ steht das Bild $c_{1}$ von $e_{1}$\\
 In der ersten Spalte von $AC$ steht das Bild von $c_{1}$ unter $A$\\
-In der ersten Spalte von $B^{-1}AC$ stehen die Koordinaten von $AC_{1}$ bzgl. $\mathcal{B}$.
+In der ersten Spalte von $B^{-1}AC$ stehen die Koordinaten von $A(c_{1})$ bzgl. $\mathcal{B}$ Analog gilt dies für $c_{2}$.
 %
 %
 %
@@ -51,12 +52,13 @@ $A,B$ invertierbar $\Rightarrow A \cdot B$ invertierbar, Inverse $B^{-1}A^{-1}$
 \subsubsection{Beweis:}
 $(AB)(A^{-1}B^{-1})=A(BB^{-1})A^{-1}=AEA^{-1}|E=\begin{pmatrix}1 & 0 \\ 0 &1 \end{pmatrix}$\\
 $B^{-1}A^{-1}AB=E \, \checkmark$\\
-$E \neq ABA^{-1}B^{-1}$!
+Im Allgemeinen: $E \neq ABA^{-1}B^{-1}$!
 %
 %
 %
 \subsubsection{Beispiel:}
-$A=\begin{pmatrix} 1 & 12 \\ 2 & 3 \end{pmatrix}$ Frage: Gibt es eine Basis $b_{1}b_{2}: _{\mathcal{B}}A_{\mathcal{B}} = \begin{pmatrix} 7 & 0 \\ 0 & 3 \end{pmatrix}$ Insbesondere $A(b_{1})=7b_{1}$  $\begin{pmatrix}1 & 12 \\ 2 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 7x \\ 7y \end{pmatrix}$ \\
+$A=\begin{pmatrix} 1 & 12 \\ 2 & 3 \end{pmatrix}$ Frage: Gibt es eine Basis $b_{1}b_{2}: \,  _{\mathcal{B}}A_{\mathcal{B}}$ %= \begin{pmatrix} 7 & 0 \\ 0 & 3 \end{pmatrix}$
+Insbesondere $A(b_{1})=7b_{1}$  $\begin{pmatrix}1 & 12 \\ 2 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 7x \\ 7y \end{pmatrix}$ \\
 $\rightarrow
 \begin{array}{rcr}
 x + 12y &=& 7x\\
