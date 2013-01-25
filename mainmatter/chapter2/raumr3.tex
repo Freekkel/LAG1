@@ -1,0 +1,71 @@
+%
+%
+%
+Elemente $\vec{a} = \begin{pmatrix}a_{1} \\ a_{2} \\ a_{3} \end{pmatrix}$
+ wie in $\mathbb{R}^{3}$: Addition, skalare Multiplikation. \\
+%
+%
+%
+\subsubsection{Definition:}
+$a \in \mathbb{R}^{3}$:
+\begin{enumerate}
+ \item $\left\Vert\vec{a}\right\Vert = \sqrt{a_{1}^{2} + a_{2}^{2} + a_{3}^{2}}$
+ \item ${<}\vec{a}, \vec{b}{>} = a_{1}b_{1} + a_{2}b_{2} + a_{3}b_{3}$
+ \item $ \vec{a}$ und $\vec{b}$ linear abhängig $\vec{b} = t\vec{a}$ oder $\vec{a} = t\vec{b}$
+ linear unabhängig $\mathop{\Leftrightarrow}\limits^{\text{Definition}}$ nicht linear abhängig.
+\end{enumerate}
+%
+%
+%
+\subsubsection{Rechenregeln:}
+\begin{enumerate}
+ \item ${<}\vec{a}, \vec{b}{>} = {<}\vec{b}, \vec{a}{>}$
+ \item ${<}\vec{a} + \vec{b}, \vec{c}{>} = <\vec{a}, \vec{c}> + <\vec{b}, \vec{c}>$ (Bilinearität)
+ \item $<\lambda\vec{a}, \vec{b}> = \lambda <\vec{a}, \vec{b}>$
+ \item $<\vec{a}, \vec{b}> = \left\Vert\vec{a}\right\Vert^{2}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Satz:}
+$\vec{a},\vec{b} \in \mathbb{R}^3$ $(\vec{a} + \vec{0}, \vec{b} + \vec{0})$, 
+$\vec{p}=\frac{<\vec{a},\vec{b}>}{\left\Vert\vec{a}\right\Vert^{2}} \cdot\vec{a}$
+ist der eindeutig bestimmte Punkt mit mit $\mathbb{R}\vec{a}$ mit minimalem Abstand zu $\vec{b}$:
+$ \left\Vert\vec{b}\right\Vert^{2} - \left\Vert\vec{p}\right\Vert^{2} + \left\Vert\vec{b} - \vec{p}\right\Vert^{2}$
+%
+% Bild einfügen
+%
+\subsubsection{Beweis}
+$\left\Vert t\vec{a} - \vec{b}\right\Vert^{2} = \, <t\vec{a} - \vec{b}, t\vec{a} - \vec{b}>$
+\begin{description}
+ \item [\tab] $ = t^{2}<\vec{a}, \vec{a}> - 2t<\vec{a}, \vec{b}> + <\vec{b}, \vec{b}>$
+ \item [\tab] $ = \left(+ <\vec{a},\vec{a}> - \frac{<\vec{a}, \vec{b}>}{<\vec{a}, \vec{a}>}\right)^{2}
+ + <\vec{b}, \vec{b}> - \frac{<{\vec{a}, \vec{b}>}^2}{\left\Vert\vec{a}\right\Vert^{2}}$
+\end{description}
+Minimum: $ t = \frac{<\vec{a}, \vec{b}>}{\left\Vert\vec{a}\right\Vert^2}$
+ergibt den Wert $\left\Vert\vec{b}\right\Vert^2 - \frac{<\vec{a}, \vec{b}>^2}{\left\Vert\vec{a}\right\Vert^2}$\\
+$\cos\varphi = \frac{Ankathete}{Hypothenuse} = \frac{\left\Vert\vec{p}\right\Vert}{\left\Vert\vec{b}\right\Vert}$
+$= \frac{\frac{1}{\left\Vert\vec{a}\right\Vert}\cdot<\vec{a}, \vec{b}>}{\left\Vert\vec{b}\right\Vert}$
+$= \frac{<\vec{a}, \vec{b}>}{\left\Vert\vec{a}\right\Vert\cdot\left\Vert\vec{b}\right\Vert}$
+Definiere $0^{\circ}\leq\, <\vec{a}, \vec{b}>\, \leq\,  180^{\circ} :\, <\vec{a}, \vec{b}>\, = \left\Vert\vec{a}\right\Vert\cdot\left\Vert\vec{b}\right\Vert\cdot\cos\varphi$
+%
+%
+%
+\subsubsection{Satz (Parallelogrammgesetz)}
+%
+% Bild einfügen
+%
+$\left\Vert\vec{a} + \vec{b}\right\Vert + \left\Vert\vec{a} - \vec{b}\right\Vert^{2}$
+$= 2\left\Vert\vec{a}\right\Vert^2 + 2\left\Vert\vec{b}\right\Vert^2$
+%
+%
+%
+\subsubsection{Beweis}
+$<\vec{a} + \vec{b}, \vec{a} + \vec{b}> + <\vec{a} -\vec{b}, \vec{a} - \vec{b}>$
+$= 2<\vec{a}, \vec{a}> + 2<\vec{b}, \vec{b}>$
+%
+%
+%
+\subsection{Geraden und Ebenen}
+\subsubsection{Definition}
+Gerade : $\vec{b} + \mathbb{R}\vec{a}, \vec{a}\neq\vec{0}$
