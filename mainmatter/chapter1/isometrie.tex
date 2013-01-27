@@ -64,3 +64,81 @@ z.B. $\frac{1}{3} = \sum\limits^{\infty}_{n=1} \frac{1}{4^{n}}$\\
 Tatsächlich lässt dich jede Zahl $ 0 \leq x \leq 360 $ schreiben als $360^{\circ} \cdot  \sum\limits^{\infty}_{n=1}a_{n}\frac{1}{2^{n}}, \qquad a_{n}\in  \mathbb{N}_{0}$ \\
 Was ist der halbe Winkel zu $\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}$ ?\\
 $R_{t,u}$ mit $t = \pm \sqrt{\frac{1}{2}(1+c)} = 0 \, u = \sqrt{\frac{1}{2}(1-c)} = 1$ d.h. $R_{t,u} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \mathrel{\widehat{=}} 90^{\circ} = \mathop{\alpha}\limits^{\text{\RM{2}}}$
+%
+%
+%
+\subsubsection{Satz (Winkelsumme im Dreiecke):}
+Es sei $a,b,c$ ein Dreieck (d.h. $a,b,c$ sind Punkte) und $\alpha := \measuredangle ( b,a,c), \, \beta := \measuredangle(c,b,a), \, \gamma := \measuredangle (a,c,b)$\\
+Dann gilt $\alpha + \beta + \gamma = 180^{\circ} (=\pi)$
+%
+%
+%
+\subsubsection{Beweis:}
+$\alpha(b-a)=\lambda(c-a), \, \lambda \in \mathbb{R}_{>0}$\\
+$\beta(c-b)=\mu(c-b), \, \mu \in \mathbb{R}_{>0}$\\
+$\gamma(a-c)= r(a-c), \, r \in \mathbb{R}_{>0}$\\
+\qquad\\
+$
+\begin{array}{rcr}
+(\alpha + \beta + \gamma)(a-c) &\mathop{=}\limits^{\text{Definition}}& \alpha \circ \beta \circ \gamma(a-c)\\
+ &=&  \alpha (\beta(\gamma(a-c)))\\
+ &=& \alpha(\beta(r(b-c)))\\
+ &=& \alpha (\beta(-r(c-b)))\\
+ &=& -r \cdot \alpha(\beta(c-b))\\
+ &=& -r\cdot \alpha(\mu(a-b))\\
+ &=& \mu \cdot r \cdot \alpha (b-a)\\
+ &=& -\alpha \mu r (a-c)
+\end{array} 
+$\\
+Da $\alpha + \beta + \gamma$ wieder eine Drehung ist, gilt $\Vert a-c\Vert = \Vert (\alpha + \beta + \gamma)(a-c)\Vert=\vert\lambda \mu r\vert \cdot \Vert (a-c)\Vert \Rightarrow \vert \lambda \mu r\vert=1$\\
+Da $\alpha, \mu, r > 0 \Rightarrow \lambda\mu r = 1$\\
+Somit gilt \\
+($\alpha+\beta+\gamma)(a-c)=-\lambda \mu r (a-c) = -1(a-c)=\begin{pmatrix} -1 & 0 \\ 0 & -1\end{pmatrix}(a-c) \Rightarrow \alpha + \beta + \gamma=180^{\circ} \rightarrow$ Drehung $\square$
+%
+%
+%
+\subsubsection{Korollar:}
+In einem Viereck ist die Summe der Innenwinkel $360^{\circ}$
+%
+%
+%
+\subsubsection{Beweis:}
+Zerlege das Viereck durch verbinden zweier nicht verbundenen Ecken in 2 Dreiecke:
+%
+%
+% Grafik einfügen
+%
+%
+\subsubsection{Satz(Gleichschenklige Dreiecke):}
+Sei $a,b,c$ ein gleichschenkliges Dreieck, d.h. $\Vert a-c \Vert = \Vert b-c \Vert$, dann gilt $\measuredangle (b,a,c) = \measuredangle (c,b,a)$
+%
+%
+%Grafik einfügen
+%
+%
+\subsubsection{Beweis:}
+o.E. gilt $c=0$\\
+Dann gilt also $a-c=a, \, b-c=b$.\\
+Es sei $d:=a+b$. \\
+\qquad\\
+Behauptung:\\
+ $a+b\perp a-b$\\
+ \qquad\\
+Beweis:\\
+$<a+b,a-c>=<a,a>+<b,a>-<a,b>-<b,b>=\Vert a \Vert^{2}-\Vert b \Vert^{2} = 0$ nach Voraussetzung $\Vert a \Vert = \Vert b \Vert$\\
+%
+%
+%Grafig einfügen
+%
+%
+$m:=\frac{1}{2}(a+b)$\\
+$\alpha + \gamma_{1} - \frac{\pi}{2}=\pi \Rightarrow \alpha + \gamma_{1} = \frac{\pi}{2}$\\
+$\beta+\gamma_{2}+\frac{\pi}{2}=\pi\Rightarrow\beta+\gamma_{2}\frac{\pi}{2}$\\
+Wir zeigen $\gamma_{1}=\gamma_{2}$ indem wir zeigen, dass $m$ auf der Winkelhalbierenden von $\gamma$ liegt. \\
+$R(\vec{a})=\lambda b$\\
+$R_{\gamma}=\begin{pmatrix} c & -s \\ s & c \end{pmatrix}$\\
+$R_{\frac{\gamma}{2}}=\begin{pmatrix} \sqrt{\frac{1}{2} (1+c)} & - \sqrt{\frac{1}{2}(1-c)} \\ \sqrt{\frac{1}{2}(1-c)} & \sqrt{\frac{1}{2}(1+c)}\end{pmatrix} \qquad u=\sqrt{\frac{1}{2}(1-c)}$\\
+$\lambda :=\sqrt{\frac{1}{2}(1+c)}$\\
+$\lambda \cdot R_{\frac{\gamma}{2}} \cdot \vec{u} = \begin{pmatrix} \frac{1}{2} (1+c)a_{1} -\frac{1}{2}\sqrt{1-c^{2}}a_{2} \\ \frac{1}{2}\sqrt{1-c^{2}}a_{1} + \frac{1}{2}(1+c)a_{2}\end{pmatrix}$\\
+$= \frac{1}{2}(\begin{pmatrix}a_{1} \\ a_{2} \end{pmatrix} + R_{\gamma} \begin{pmatrix} a_{1} \\ a_{2} \end{pmatrix} ) = \frac{1}{2}(\vec{a}+\vec{b}=\vec{m}$\\
+$\vec{m}$ liegt also auf der Winkelhalbierenden von $\Rightarrow \gamma_{1} = \gamma_{2} = \frac{\gamma}{2}$

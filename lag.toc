@@ -80,12 +80,19 @@
 \contentsline {subsubsection}{Definition (Winkelhalbierende):}{17}
 \contentsline {subsubsection}{Satz:}{17}
 \contentsline {subsubsection}{Beweis:}{17}
-\contentsline {chapter}{\numberline {2}Der Raum $\mathbb {R}^{3}$}{19}
-\contentsline {subsubsection}{Definition:}{19}
-\contentsline {subsubsection}{Rechenregeln:}{19}
-\contentsline {subsubsection}{Satz:}{19}
-\contentsline {subsubsection}{Beweis}{19}
-\contentsline {subsubsection}{Satz (Parallelogrammgesetz)}{19}
-\contentsline {subsubsection}{Beweis}{20}
-\contentsline {subsection}{\numberline {2.0.1}Geraden und Ebenen}{20}
-\contentsline {subsubsection}{Definition}{20}
+\contentsline {subsubsection}{Satz (Winkelsumme im Dreiecke):}{18}
+\contentsline {subsubsection}{Beweis:}{18}
+\contentsline {subsubsection}{Korollar:}{18}
+\contentsline {subsubsection}{Beweis:}{18}
+\contentsline {subsubsection}{Satz(Gleichschenklige Dreiecke):}{18}
+\contentsline {subsubsection}{Beweis:}{19}
+\contentsline {section}{\numberline {1.8}Trigonometrische Funktionen}{19}
+\contentsline {chapter}{\numberline {2}Der Raum $\mathbb {R}^{3}$}{21}
+\contentsline {subsubsection}{Definition:}{21}
+\contentsline {subsubsection}{Rechenregeln:}{21}
+\contentsline {subsubsection}{Satz:}{21}
+\contentsline {subsubsection}{Beweis}{21}
+\contentsline {subsubsection}{Satz (Parallelogrammgesetz)}{21}
+\contentsline {subsubsection}{Beweis}{22}
+\contentsline {subsection}{\numberline {2.0.1}Geraden und Ebenen}{22}
+\contentsline {subsubsection}{Definition}{22}
