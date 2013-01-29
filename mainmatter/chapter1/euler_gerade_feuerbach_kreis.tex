@@ -1,0 +1,84 @@
+\section{Euler-Gerade und Feuerbach-Kreis}
+%
+%
+%
+\subsubsection{Definition:}
+$a,b,c$ sei ein Dreieck
+\begin{enumerate}
+	\item Seitenhalbierende: Verbindung von $\vec{a}$ mit $\frac{1}{2}(\vec{b}+\vec{c})$
+	\item Mittelsenkrechte: senkrechte auf $ab$ durch $\frac{ab}{2}$
+	\item Höhe: durch $a$ ist das Lot von $a$ auf $bc$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Satz:}
+\begin{enumerate}
+	\item Die Seitenhalbierenden schneiden sich in einem Punkt: "`Schwerpunkt"'.
+	\item Die Mittelsenkrechten schneiden sich in einem Punkt: "`Schwerpunkt"'.
+	\item Die Höhen schneiden sich in einem Punkt: "`Schwerpunkt"'.
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+\begin{enumerate}
+	\item $\vec{c}\,\mathbb{R}(\frac{a+b}{2}-c)\mathop{=}\limits^{\mathbb{R}=\frac{2}
+	{3}}\frac{a+b+c}{3}$\\
+	Symmetrie $\Rightarrow$ auf allen Seitenhalbierenden.
+	\item $2<a-b,x>=<a-b,a+b>=\Vert a\Vert^{2}-\Vert b\Vert^{2}$\\
+	$2<b-c,x>=<b-c,b+c>=\Vert b \Vert^{2}-\Vert c \Vert^{2}$\\
+	$2<c-a,x>=<c-a,c+a>=\Vert c \Vert^{2}-\Vert a\Vert^{2}$\\
+	$0=0$
+\end{enumerate}
+$\Rightarrow$ Jede der Gleichungen ist Konsequenz der anderen beiden
+%
+%
+%
+\subsubsection{Satz (von Euler):}
+$\vec{h}=\vec{s}+2(\vec{s}-\vec{m})$
+%
+%
+%
+\subsubsection{Beweis:}
+z.z. $\vec{h}=3\vec{s}-2\vec{m}=\vec{a}+\vec{b}+\vec{c}-2\vec{m}$
+genauer: $\vec{a}+\vec{b}+\vec{c}-2m$ liegt auf jeder Höhe\\
+Höhe durch $c: <a-b,x>=<a-b,c>$\\
+$<a-b,a+b+c-2\vec{m}>=\mathop{\underbrace{<a-b,a+b>-<a-b,2\vec{m}>}}\limits_{=0}+<a-b,c>$
+%
+%
+%
+\subsubsection{Satz (von Feuerbach):}
+Das Dreieck $abc$ mit $s,h,m$\\
+%
+%Grafik einfügen
+%
+\subsubsection{Definition:}
+Feuerbach-Kreis geht durch Seitenmitte\\
+habe Mittelpunkt f
+\begin{enumerate}
+	\item $\vec{f}=\frac{\vec{h}+\vec{m}}{2}$
+	\item Radius d.Feuerbachkreises ist die Hälfte des Umkreisradius. 
+	\item $\frac{h+a}{2} , \, \frac{b+h}{2}, \, \frac{h+c}{2}$
+	\item Fußpunkt der Höhen auch
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+\begin{enumerate}
+	\item $K$ ist Umkreis von %Grafik einfügen
+	Lege so, dass $\vec{s}=\vec{0}=\frac{1}{s}(\vec{a}+\vec{b}+\vec{c})=-\frac{1}{4} 
+	\mathop{\underbrace{<a-b,a+b>}}\limits_{2<a-b,m>=a-b,\frac{m}{s}>}$\\
+	$\Rightarrow \mathop{2}\limits_{\mathop{<a-b,f>}\limits^{\rotatebox{90}
+	{=}}}<\frac{a+c}{2}-\frac{b+c}{2},f>=<\frac{a+c}{2}-\frac{b+c}{2},\frac{a+b+2c}{2}>$\\
+	$\frac{1}{2} (h+m) \mathop{=}\limits^{\text{Euler}}\frac{1}{2}(-
+	m)\mathop{=}\limits^{\Rightarrow f = \frac{-m}{2}} f$
+	\item $\leadsto \mathop{\cup}\limits^{\_}$
+	\item $\leadsto \mathop{\cup}\limits^{\_}$
+	\item %Gafik einfügen
+\end{enumerate}
+Projeziere $\mathcal{E}$ auf die Gerade $ab$. \\
+Dann liegt das Bild von $f$ in der Mitte zum Seitenmittelpunkt und Fußpunkt der Höhe\\
+$\Rightarrow \Vert f-\frac{a+b}{2}\Vert = r_{\text{F-Kreis}}=\Vert f-h_{c} \Vert$\\
+$\Rightarrow h_{c}$ liegt auf dem F-Kreis

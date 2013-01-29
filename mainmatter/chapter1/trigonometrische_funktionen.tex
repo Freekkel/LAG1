@@ -1,1 +1,201 @@
 \section{Trigonometrische Funktionen}
+%
+%
+%
+\subsubsection{Definition:}
+$\alpha = R_{c,s}$ definiere $c=\cos \alpha, \, s=\sin\alpha, \, \frac{s}{0}=\tan\alpha$ \huge{\textcolor{pred}{?}}\normalsize{}\\
+%
+%
+%Grafik einfügen
+%
+%
+\qquad\\
+ \begin{tabular}{|c|c|c|c|c|c|c|}
+ \hline
+Winkel & $0^{\circ}$ & $30^{\circ}$ & $45^{\circ}$ & $60^{\circ}$ & $90^{\circ}$ & $180^{\circ}$\\\hline
+$\sin$ & 0 & $\frac{1}{2}$ & $\frac{1}{2}\sqrt{2}$ & $\frac{1}{2} \sqrt{3}$ & 1 & 0\\\hline
+$\cos$ & 1 & $\frac{1}{2} \sqrt{3}$ &$\frac{1}{2}\sqrt{2}$ &  $\frac{1}{2}$  & 0 & -1\\\hline
+$\tan$ & 0 &$\frac{1}{3}\sqrt{3}$ & 1 & $\sqrt{3}$ & - & 0 \\\hline
+ \end{tabular}\\
+ \qquad\\
+ z.B. $45^{\circ} \, R_{c,s}$ mit $c=s \, R^{2}_{c,s} = \begin{pmatrix} \frac{1}{2}\sqrt{2} & - \frac{1}{2}\sqrt{2} \\ \frac{1}{2}\sqrt{2} & \frac{1}{2}\sqrt{2} \end{pmatrix}\begin{pmatrix} \frac{1}{2}\sqrt{2} & - \frac{1}{2}\sqrt{2} \\ \frac{1}{2}\sqrt{2} & \frac{1}{2}\sqrt{2} \end{pmatrix}$ \\
+ in allgemeiner Form:\\
+ $ R^{2}_{c,s} = R_{c^{2}-s^{2},2cs}=R_{0,1}$\\
+ analog $ c= \frac{1}{2}\sqrt{3} \, s=\frac{1}{2}$\\
+ $(R_{c,s})^{3} = R_{0,1}$ (ohne nachrechnen)
+ %
+ %
+ %
+ \subsubsection{Satz:}
+ $\cos^{2}\alpha + \sin^{2}\alpha =1$\\
+ $\cos -\alpha=\cos\alpha, \, \sin\ -\alpha=-\sin\alpha$
+ %
+ %
+%
+ \subsubsection{Beweis:}
+ $\alpha = R_{c,s} \, \cos^{2}\alpha+\sin^{2}\alpha=1$\\
+ $-\alpha=R_{\mathop{c}\limits_{\mathop{\cos-\alpha = \cos \alpha}\limits^{\uparrow}}, \, \mathop{s}\limits_{\mathop{\sin-\alpha = -\sin\alpha}\limits^{\uparrow}}}$\\
+ %
+ %
+ %
+ \subsubsection{Additionstheoreme:}
+ \begin{enumerate}
+ 	\item $\cos(\alpha+\beta) = \cos\alpha\cdot\cos\beta-\sin\alpha\sin\beta$
+ 	\item $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+$\alpha=R_{c,s}$\\
+$\beta=R_{t,u}$\\
+$\alpha+\beta=R_{\mathop{\underbrace{ct-su}}\limits_{2},\, \mathop{\underbrace{cu+st}}\limits_{3}}$
+%
+%
+%
+\subsubsection{Satz:}
+\begin{enumerate}
+	\item $ <\vec{a},\vec{b}>=\cos(\measuredangle(a,b))\cdot\Vert\vec{a}\Vert
+	\cdot\Vert\vec{b}\Vert$
+	\item $det(\vec{a},\vec{b})=\sin(\measuredangle(a,b))\cdot\Vert\vec{a}\Vert
+	\cdot \Vert\vec{b}\Vert$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+$\frac{\vec{a}}{\Vert\vec{a}\Vert}=\begin{pmatrix} c \\ s \end{pmatrix} \quad \frac{\vec{b}}{\Vert\vec{b}\Vert} \quad \measuredangle(\vec{a},\vec{b}=R_{t,u}\cdot R_{c,-s}=R_{tc+us,-st,uc}$\\
+$\cos\measuredangle(a,b)=ct+su=\frac{<a,b>}{\Vert a \Vert \cdot \Vert b\Vert}$\\
+$\sin\measuredangle(a,b)=uc+ts=\frac{det(\vec{a},\vec{b})}{\Vert\vec{a}\Vert\cdot\Vert\vec{b}\Vert}$
+%
+%
+%
+\subsubsection{Beispiel:}
+\begin{enumerate}
+	\item $\vec{a}\begin{pmatrix}2\\3\end{pmatrix} \, \vec{b}=
+	\begin{pmatrix}-4\\1\end{pmatrix}$ \\
+	$<\vec{a},\vec{b}>=-5\Rightarrow\cos\measuredangle(a,b)=\frac{-5}
+	{\sqrt{13}\cdot\sqrt{17}} \mathop{\Rightarrow}\limits^{\text{TR}}\measuredangle
+	(\vec{a},\vec{b})\approx110^{\circ}$
+	\item $\vec{a}=\begin{pmatrix} 3 \\ 1 \end{pmatrix}, \, \vec{b}=\begin{pmatrix}2 \\ 4 
+	\end{pmatrix}$\\
+	%
+	%Grafik einfügen vor das untere Array 
+	%
+	$
+	\left.
+	\begin{array}{cc}
+	<a,b>=10 \\
+	det(\vec{a},\vec{b})=10
+	\end{array}
+	\right\} 
+	\Rightarrow \sin\alpha=\cos\alpha \Rightarrow \alpha = 45^{\circ}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Satz:}	
+$\vec{a} + \vec{0} + \vec{b} \qquad \measuredangle(\vec{a},\vec{b}-\vec{a})=\frac{\pi}{2}$. Dann gilt:
+%
+%Grafik einfügen
+%
+\begin{enumerate}
+	\item $\cos \measuredangle(\vec{a},\vec{b})=\frac{\Vert\vec{a}\Vert}
+	{\Vert\vec{b}\Vert}$
+	\item $\sin\measuredangle(\vec{a},\vec{b})=\pm\frac{\Vert\vec{b}-\vec{a}\Vert}
+	{\Vert\vec{b}\Vert}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+\begin{enumerate}
+	\item $0=<\vec{a},\vec{b}-\vec{a}>=<a,b>-<a,a>$\\
+	$\Vert\vec{a}\Vert^{2}=<\vec{a},\vec{a}>=<\vec{a},\vec{b}>=
+	\Vert\vec{a}\Vert\cdot\Vert\vec{b}\Vert\cdot(\cos\measuredangle(\vec{a},
+	\vec{b}))$
+	\item $\sin\alpha=\pm\sqrt{1-\cos^{2}-\alpha}$\
+		$\mathop{=}^{\text{1.}}\sqrt{\frac{\Vert\vec{b}\Vert^{2}-\Vert a \Vert^{2}}
+		{\Vert b \Vert^{2}}} =\pm \frac{\Vert b-a\Vert}{-\Vert b \Vert}$
+\end{enumerate}
+\begin{itemize}
+	\item Abstand von $p$ zur Gerade $\vec{b} + \mathbb{R}\vec{a}$ ist $\frac{\vert 
+	det(p-b,a)\vert}{\Vert\vec{a}\Vert}$
+	\item Abstand von $p$ zur Gerade $<n,x>=c$ ist $ \frac{\vert <n,p>-c\vert}{\Vert 
+	\vec{n}\Vert}$, unabhängig von Wahl von $\vec{n}$
+\end{itemize}
+%
+%
+%
+\subsubsection{Beweis:}
+\begin{itemize}
+	\item will ausrechnen $\Vert\vec{x}-\vec{p}\Vert$ minimal, $x \in l$\\
+	$det(x-p,a)=det(b-p,a)$\\
+	$det(x-p,a)=\Vert x-p\Vert\mathop{\underbrace{\sin\measuredangle(c-
+	p,a)}}\limits_{=1\text{ wenn }\vec{x}-\vec{p}\perp\vec{a}}\Vert a\Vert$\\
+	$\vec{n}\perp\vec{a} \quad p+\mathbb{R}n \cap b +\mathbb{R}a$\\
+	$\Rightarrow \Vert x-p,a\Vert=\frac{det(x-p,a)}{\Vert\vec{a}\Vert}$
+	\item $<\vec{n},\vec{x}>=c=<\vec{n},b> \, \frac{<n,p>-<n,b>}{\Vert\vec{n}\Vert}$\\
+	Nimm $\vec{n}=\begin{pmatrix} -a_{2} \\ a_{1} \end{pmatrix}$\\
+	$\frac{\vert det(\vec{p}-b,a)\vert}{\vec{a}} \mathop{=}\limits^{det(\vec{a},\vec{b})
+	=<a^{\perp},>}\frac{\vert <p-b,\vec{n}> \vert}{\Vert\vec{n}\Vert}=\frac{\vert<p,n>-
+	c\vert}{\Vert\vec{n}\Vert}$
+\end{itemize}
+%
+%
+%
+\subsubsection{Satz:}
+\begin{enumerate}
+	\item $\vec{a},\vec{b}\in\mathbb{R}^{2}$: Punkte der Winkelhalbierenden den 
+	$\mathbb{R}(\Vert b\Vert a+\Vert a\Vert b)$ haben den Gleichenabstand zu 
+	$\vec{a}$und $\vec{b}$. \\
+	$\mathbb{R}\frac{1}{2}(\frac{\vec{a}}{\Vert a\Vert}+\frac{\vec{b}}{\Vert 
+	b\Vert}=\mathbb{R}(\Vert \vec{b}\Vert\vec{a}+\vec{b}\Vert\vec{a}\Vert)$
+	\item Die drei Winkelhalbierenden eines Dreiecks gehen durch einen Punkt = 
+	Innenkreismittelpunkt
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+\begin{enumerate}
+	\item $\vec{v}=\Vert\vec{b}\Vert\vec{a}+\Vert\vec{a}\Vert\vec{b}, \, \lambda >0$\\
+	Abstand von $\lambda\vec{v}$ zu $\mathbb{R}a$ und $\mathbb{R}b:$\\
+	$\frac{det(\lambda v,\vec{a})}{\Vert\vec{a}\Vert}=\lambda \vert det(\vec{a},
+	\vec{b})\vert = \frac{\vert det(\lambda \vec{v},\vec{b}\vert}{\Vert\vec{b}\Vert}$
+	%
+	%Grafik einfügen
+	%
+	\item $C = \Vert b-a\Vert, B=\Vert c-a \Vert, A=\Vert b-c \Vert$\\
+	Winkel durch $\vec{a}: \vec{a}+\mathbb{R}(C(c-a)+B(b-a))$\\
+	Parameter $\frac{1}{A+B+C}:\vec{a}+\frac{1}{A+B+C}(Aa+Bb+CC)$\\
+	Symmetrie $\Rightarrow$ Schnittpunkt
+\end{enumerate}
+%
+%
+%
+\subsubsection{Satz:}
+$l$ und $m$ zwei verschiedene Geraden
+\begin{enumerate}
+	\item $l || m: \{P|d(P,l)=d(P,m)\}$
+	\item $l \cap m=\{*\}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beweis:}
+\begin{enumerate}
+	\item $l:ax+by=c \neq m:ax+by=d$\\
+	Abstand $\begin{pmatrix} x \\ y\end{pmatrix} z \cup l \frac{1}{\sqrt{a^{2}+b^{2}}} |
+	ax+by-c|$\\
+	bzw.: $\frac{1}{\sqrt{a^{2}+b^{2}}}|ax+by-d|$\\
+	$\Rightarrow ax+by-c=-(ax+by-d)$\\
+	$\Rightarrow 2ax+2by=c+d$
+	\item $ax+by=c \,$ o.E. $a^{2}+b^{2}=1=e^{1}+f^{2}$\\
+	$ex+fy=g$\\
+	$|ax+by-c|=|ex+fy-g|$\\
+	$\Leftrightarrow ax+by-c=\pm(ex+fy-g)$\\
+	$\Rightarrow (a+e)x+(b+f)y=c+g \vee (a-e)x+(b-f)y=c-g$\\
+	$\begin{pmatrix} a+e \\ b+f \end{pmatrix} \begin{pmatrix} a-e \\ b-f \end{pmatrix} = 
+	a^{2}+b^{2}-e^{2}-f^{2}=1-1=0$
+\end{enumerate}
