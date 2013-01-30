@@ -16,97 +16,98 @@
 \contentsline {chapter}{\numberline {1}Der Raum $\mathbb {R}^{2}$}{7}
 \contentsline {subsection}{\numberline {1.0.7}Definition:}{7}
 \contentsline {subsection}{\numberline {1.0.8}Definition: (Basis)}{7}
-\contentsline {subsection}{\numberline {1.0.9}Definition: (Determinante)}{7}
+\contentsline {subsubsection}{Beispiel:}{8}
+\contentsline {subsection}{\numberline {1.0.9}Definition: (Determinante)}{8}
 \contentsline {section}{\numberline {1.1}Cramersche Regel}{8}
 \contentsline {subsubsection}{Beweis: }{8}
-\contentsline {subsubsection}{Korollar:}{8}
-\contentsline {subsubsection}{Korollar:}{8}
-\contentsline {section}{\numberline {1.2}Geraden}{8}
-\contentsline {subsection}{\numberline {1.2.1}Definition: (Gerade)}{8}
-\contentsline {subsubsection}{Beispiel: }{8}
-\contentsline {subsection}{\numberline {1.2.2}Satz 1.2}{8}
+\contentsline {subsubsection}{Korollar:}{9}
+\contentsline {subsubsection}{Korollar:}{9}
+\contentsline {section}{\numberline {1.2}Geraden}{9}
+\contentsline {subsection}{\numberline {1.2.1}Definition: (Gerade)}{9}
+\contentsline {subsubsection}{Beispiel: }{9}
+\contentsline {subsection}{\numberline {1.2.2}Satz 1.2}{9}
 \contentsline {subsubsection}{Beweis:}{9}
 \contentsline {subsubsection}{Beispiel:}{9}
 \contentsline {section}{\numberline {1.3}Lineare Abbildungen}{9}
-\contentsline {subsubsection}{Beispiel: }{9}
-\contentsline {subsubsection}{Satz: }{9}
-\contentsline {subsubsection}{Beweis:}{9}
-\contentsline {subsubsection}{Satz:}{10}
+\contentsline {subsubsection}{Beispiel: }{10}
+\contentsline {subsubsection}{Satz: }{10}
 \contentsline {subsubsection}{Beweis:}{10}
 \contentsline {subsubsection}{Satz:}{10}
 \contentsline {subsubsection}{Beweis:}{10}
-\contentsline {section}{\numberline {1.4}Inverse Matrix, Basiswechsel}{10}
-\contentsline {subsubsection}{Satz:}{10}
-\contentsline {subsubsection}{Beweis:}{11}
 \contentsline {subsubsection}{Satz:}{11}
 \contentsline {subsubsection}{Beweis:}{11}
-\contentsline {subsubsection}{Beispiel:}{11}
+\contentsline {section}{\numberline {1.4}Inverse Matrix, Basiswechsel}{11}
 \contentsline {subsubsection}{Satz:}{11}
+\contentsline {subsubsection}{Beweis:}{11}
+\contentsline {subsubsection}{Satz:}{11}
+\contentsline {subsubsection}{Beweis:}{12}
+\contentsline {subsubsection}{Beispiel:}{12}
+\contentsline {subsubsection}{Satz:}{12}
 \contentsline {subsubsection}{Beweis:}{12}
 \contentsline {subsubsection}{Beispiel:}{12}
 \contentsline {subsubsection}{Probe:}{12}
 \contentsline {subsubsection}{Satz:}{12}
-\contentsline {subsubsection}{Beweis:}{12}
+\contentsline {subsubsection}{Beweis:}{13}
 \contentsline {section}{\numberline {1.5}Satz von Pythagoras, L\IeC {\"a}nge und Skalarprodukt}{13}
 \contentsline {subsection}{\numberline {1.5.1}Satz des Pythagoras (1. Version)}{13}
 \contentsline {subsubsection}{Beweis:}{13}
 \contentsline {subsubsection}{Definition:}{13}
 \contentsline {subsubsection}{Bemerkung:}{13}
-\contentsline {subsubsection}{Definition:}{13}
-\contentsline {subsubsection}{Eigenschaften des Skalarprodukts}{13}
-\contentsline {subsection}{\numberline {1.5.2}Pythagoras (allgemein)}{13}
-\contentsline {subsubsection}{Beweis:}{13}
+\contentsline {subsubsection}{Definition:}{14}
+\contentsline {subsubsection}{Eigenschaften des Skalarprodukts}{14}
+\contentsline {subsection}{\numberline {1.5.2}Pythagoras (allgemein)}{14}
+\contentsline {subsubsection}{Beweis:}{14}
 \contentsline {subsection}{\numberline {1.5.3}Satz des Thales}{14}
 \contentsline {subsubsection}{Beweis:}{14}
 \contentsline {subsubsection}{Satz:}{14}
 \contentsline {subsubsection}{Beweis:}{14}
 \contentsline {subsubsection}{H\IeC {\"o}hensatz}{14}
 \contentsline {subsubsection}{Beweis:}{14}
-\contentsline {subsubsection}{Kathetensatz}{14}
-\contentsline {subsubsection}{Beweis:}{14}
-\contentsline {section}{\numberline {1.6}Bewegungen}{14}
-\contentsline {subsubsection}{Definition:}{14}
+\contentsline {subsubsection}{Kathetensatz}{15}
+\contentsline {subsubsection}{Beweis:}{15}
+\contentsline {section}{\numberline {1.6}Bewegungen}{15}
+\contentsline {subsubsection}{Definition:}{15}
 \contentsline {subsubsection}{Satz:}{15}
 \contentsline {subsubsection}{Beweis:}{15}
-\contentsline {subsubsection}{Idee:}{15}
-\contentsline {subsubsection}{Fall \MakeUppercase {i}:}{15}
-\contentsline {subsubsection}{Fall \MakeUppercase {ii}:}{15}
+\contentsline {subsubsection}{Idee:}{16}
+\contentsline {subsubsection}{Fall \MakeUppercase {i}:}{16}
+\contentsline {subsubsection}{Fall \MakeUppercase {ii}:}{16}
 \contentsline {subsubsection}{Satz:}{16}
 \contentsline {subsubsection}{Satz:}{16}
 \contentsline {subsubsection}{Beweis:}{16}
 \contentsline {subsubsection}{Satz:}{16}
-\contentsline {section}{\numberline {1.7}Isometrie}{16}
+\contentsline {section}{\numberline {1.7}Isometrie}{17}
 \contentsline {subsubsection}{Definition (Winkel):}{17}
 \contentsline {subsubsection}{Definition (Winkelhalbierende):}{17}
 \contentsline {subsubsection}{Satz:}{17}
 \contentsline {subsubsection}{Beweis:}{17}
 \contentsline {subsubsection}{Satz (Winkelsumme im Dreiecke):}{18}
 \contentsline {subsubsection}{Beweis:}{18}
-\contentsline {subsubsection}{Korollar:}{18}
-\contentsline {subsubsection}{Beweis:}{18}
-\contentsline {subsubsection}{Satz(Gleichschenklige Dreiecke):}{18}
+\contentsline {subsubsection}{Korollar:}{19}
+\contentsline {subsubsection}{Beweis:}{19}
+\contentsline {subsubsection}{Satz(Gleichschenklige Dreiecke):}{19}
 \contentsline {subsubsection}{Beweis:}{19}
 \contentsline {section}{\numberline {1.8}Trigonometrische Funktionen}{19}
 \contentsline {subsubsection}{Definition:}{19}
-\contentsline {subsubsection}{Satz:}{19}
+\contentsline {subsubsection}{Satz:}{20}
 \contentsline {subsubsection}{Beweis:}{20}
 \contentsline {subsubsection}{Additionstheoreme:}{20}
 \contentsline {subsubsection}{Beweis:}{20}
 \contentsline {subsubsection}{Satz:}{20}
 \contentsline {subsubsection}{Beweis:}{20}
-\contentsline {subsubsection}{Beispiel:}{20}
-\contentsline {subsubsection}{Satz:}{20}
+\contentsline {subsubsection}{Beispiel:}{21}
+\contentsline {subsubsection}{Satz:}{21}
 \contentsline {subsubsection}{Beweis:}{21}
 \contentsline {subsubsection}{Beweis:}{21}
 \contentsline {subsubsection}{Satz:}{21}
-\contentsline {subsubsection}{Beweis:}{21}
-\contentsline {subsubsection}{Satz:}{21}
+\contentsline {subsubsection}{Beweis:}{22}
+\contentsline {subsubsection}{Satz:}{22}
 \contentsline {subsubsection}{Beweis:}{22}
 \contentsline {section}{\numberline {1.9}Euler-Gerade und Feuerbach-Kreis}{22}
 \contentsline {subsubsection}{Definition:}{22}
 \contentsline {subsubsection}{Satz:}{22}
-\contentsline {subsubsection}{Beweis:}{22}
-\contentsline {subsubsection}{Satz (von Euler):}{22}
+\contentsline {subsubsection}{Beweis:}{23}
+\contentsline {subsubsection}{Satz (von Euler):}{23}
 \contentsline {subsubsection}{Beweis:}{23}
 \contentsline {subsubsection}{Satz (von Feuerbach):}{23}
 \contentsline {subsubsection}{Definition:}{23}
