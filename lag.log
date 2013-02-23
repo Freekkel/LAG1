@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.16)  30 JAN 2013 21:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.16)  23 FEB 2013 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1548,47 +1548,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--72
 
  []
 
-
-Overfull \hbox (7.20856pt too wide) in paragraph at lines 78--82
-\T1/cmr/m/n/10 Sei $\OML/cmm/m/it/10 A \U/MnSymbolC/m/n/10 ^^B \U/msb/m/n/10 R[
-] \U/MnSymbolA/m/n/10 ^^@ \U/msb/m/n/10 R[]$ \T1/cmr/m/n/10 li-ne-ar. Dann gibt
- es Ba-sen $\OMS/MnSymbolS/m/n/10 B\OML/cmm/m/it/10 ; \OMS/MnSymbolS/m/n/10 C$ 
-\T1/cmr/m/n/10 von $\U/msb/m/n/10 R[]$\T1/cmr/m/n/10 , so-dass $[]\OML/cmm/m/it
-/10 A[]$ \T1/cmr/m/n/10 ei-ne der For-men $[] \OML/cmm/m/it/10 ; [] ; []$ 
- []
-
 [12]) (./mainmatter/chapter1/satz_von_pythagoras_laenge_und_skalarprodukt.tex
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 95--105
+Underfull \hbox (badness 10000) in paragraph at lines 96--106
 
  []
 
-) (./mainmatter/chapter1/bewegungen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 111--1
+[14]) (./mainmatter/chapter1/bewegungen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 113--1
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 18--36
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--37
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 42--59
+Underfull \hbox (badness 10000) in paragraph at lines 43--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--98
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
 
  []
 
-) (./mainmatter/chapter1/isometrie.tex [16]
+[16]) (./mainmatter/chapter1/isometrie.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--16
 
  []
@@ -1600,81 +1591,97 @@ LaTeX Warning: Command \glqq invalid in math mode on input line 30.
 LaTeX Warning: Command \grqq invalid in math mode on input line 30.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--70
+Underfull \hbox (badness 10000) in paragraph at lines 35--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--70
+Underfull \hbox (badness 10000) in paragraph at lines 35--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--70
+Underfull \hbox (badness 10000) in paragraph at lines 35--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--70
+Underfull \hbox (badness 10000) in paragraph at lines 35--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--70
+Underfull \hbox (badness 10000) in paragraph at lines 35--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--70
+Underfull \hbox (badness 10000) in paragraph at lines 35--71
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 77--100
+Underfull \hbox (badness 10000) in paragraph at lines 78--101
 
  []
 
 [18]) (./mainmatter/chapter1/trigonometrische_funktionen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 120--1
+Underfull \hbox (badness 10000) in paragraph at lines 121--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--1
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--29
+Underfull \hbox (badness 10000) in paragraph at lines 121--1
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
+Underfull \hbox (badness 10000) in paragraph at lines 6--33
 
  []
 
-[20] [21]) (./mainmatter/chapter1/euler_gerade_feuerbach_kreis.tex [22]
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+
+ []
+
+[20]) (./mainmatter/chapter1/abstaende.tex [21] [22])
+(./mainmatter/chapter1/euler_gerade_feuerbach_kreis.tex
 Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
-)) (./mainmatter/chapter_2.tex [23] [24]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+
+ []
+
+)) (./mainmatter/chapter_2.tex [24]
 Kapitel 2.
 (./mainmatter/chapter2/raumr3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
  []
 
-)) [25
+[25
 
 
-] [26] (./backmatter/listoffigures.tex (./lag.lof)
+])) [26] (./backmatter/listoffigures.tex (./lag.lof)
 \tf@lof=\write5
 \openout5 = `lag.lof'.
 
@@ -1685,20 +1692,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
 ] (./lag.aux) ) 
 Here is how much of TeX's memory you used:
- 28095 strings out of 493493
- 554861 string characters out of 3143797
- 701545 words of memory out of 3000000
- 30716 multiletter control sequences out of 15000+200000
- 41257 words of font info for 127 fonts, out of 3000000 for 9000
+ 28098 strings out of 493493
+ 555011 string characters out of 3143797
+ 702545 words of memory out of 3000000
+ 30718 multiletter control sequences out of 15000+200000
+ 39713 words of font info for 125 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,17n,78p,834b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbol
 E.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/u
 sr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/share/texmf/fon
-ts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
-dvips/mnsymbol/MnSymbolS.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-supe
-r-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc
+texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/t
+exmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolS.enc}{/usr/share/texmf/fonts/enc/dv
+ips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-sup
+er-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc
 }</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb></usr/share/tex
@@ -1710,22 +1717,20 @@ ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
 c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on lag.pdf (33 pages, 612982 bytes).
+10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm080
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.
+pfb>
+Output written on lag.pdf (33 pages, 612847 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
+ 257 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

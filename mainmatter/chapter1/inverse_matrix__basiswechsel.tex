@@ -50,7 +50,7 @@ $A,B$ invertierbar $\Rightarrow A \cdot B$ invertierbar, Inverse $B^{-1}A^{-1}$
 %
 %
 \subsubsection{Beweis:}
-$(AB)(A^{-1}B^{-1})=A(BB^{-1})A^{-1}=AEA^{-1}|E=\begin{pmatrix}1 & 0 \\ 0 &1 \end{pmatrix}$\\
+$(AB)(AB)^{-1}=A(BB^{-1})A^{-1}=AEA^{-1}|E=\begin{pmatrix}1 & 0 \\ 0 &1 \end{pmatrix}$\\
 $B^{-1}A^{-1}AB=E \, \checkmark$\\
 Im Allgemeinen: $E \neq ABA^{-1}B^{-1}$!
 %
@@ -75,7 +75,7 @@ $\begin{pmatrix} -1 & -3 \\ -1 & 2 \end{pmatrix} \cdot \begin{pmatrix} 1 & 12 \\
 %
 %
 \subsubsection{Satz:}
-Sei $A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ linear. Dann gibt es Basen $\mathcal{B}, \mathcal{C}$ von $\mathbb{R}^{2}$, sodass $_{\mathcal{B}}A_{\mathcal{C}}$ eine der Formen $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$
+Sei $A: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ linear. Dann gibt es Basen $\mathcal{B}, \mathcal{C}$ von $\mathbb{R}^{2}$, sodass $_{\mathcal{B}}A_{\mathcal{C}}$ eine der Formen annimmt $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$
 %
 %
 %
@@ -94,7 +94,7 @@ Setze $A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \vec{a} \qquad A \begin{pmatrix} 
 		%
 		%
 	\item $\vec{a}, \vec{b}$ keine Basis, aber $\vec{a} \neq \begin{pmatrix} 0 \\ 0 
-		\end{pmatrix} \rightarrow \vec{b} = \lambda a$ und $A\begin{pmatrix}\lambda	
+		\end{pmatrix} \rightarrow \vec{b} = \lambda \vec{a}$ und $A\begin{pmatrix}\lambda	
 		\\ -1\end{pmatrix} = \lambda \vec{a} - \vec{b} = \begin{pmatrix} 0 \\ 0 
 		\end{pmatrix} \qquad \mathcal{B} = (\vec{a},\vec{a}_{\perp})$\\
 		$_{\mathcal{B}}A_{\mathcal{C}} = B^{-1}A\cdot C = \frac{1}{a_{1}^{2}+a_{2}^{2}} 
