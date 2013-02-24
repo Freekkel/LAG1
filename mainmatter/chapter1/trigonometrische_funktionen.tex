@@ -5,9 +5,10 @@
 \subsubsection{Definition:}
 $\alpha = R_{c,s}$ definiere $c=\cos \alpha, \, s=\sin\alpha, \, \frac{s}{c}=\tan\alpha$  sofern $c \neq 0$
 %
-%
-%Grafik einfügen
-%
+ \begin{figure}[H]
+ \centering
+\includegraphics[width=0.15\textwidth]{mainmatter/chapter1/pics/trigo1.png}
+\end{figure}
 %
 \qquad\\
  \begin{tabular}{|c|c|c|c|c|c|c|}
@@ -84,9 +85,7 @@ $\sin\measuredangle(a,b)=uc-ts=\frac{det(\vec{a},\vec{b})}{\Vert\vec{a}\Vert\cdo
 	(\vec{a},\vec{b})\approx110^{\circ}$
 	\item $\vec{a}=\begin{pmatrix} 3 \\ 1 \end{pmatrix}, \, \vec{b}=\begin{pmatrix}2 \\ 4 
 	\end{pmatrix}$\\
-	%
-	%Grafik einfügen vor das untere Array 
-	%
+	\includegraphics[width=0.15\textwidth]{mainmatter/chapter1/pics/trigo2.png}
 	$
 	\left.
 	\begin{array}{cc}
@@ -100,18 +99,24 @@ $\sin\measuredangle(a,b)=uc-ts=\frac{det(\vec{a},\vec{b})}{\Vert\vec{a}\Vert\cdo
 %
 %
 \subsubsection{Satz:}	
-$\vec{a} \neq \vec{0} \neq \vec{b} \qquad \measuredangle(\vec{a},\vec{b}-\vec{a})=\frac{\pi}{2}$. Dann gilt:
-%
-%Grafik einfügen
-%
-\begin{enumerate}
+$\vec{a} \neq \vec{0} \neq \vec{b} \qquad \measuredangle(\vec{a},\vec{b}-\vec{a})=\frac{\pi}{2}$. Dann gilt:\\
+
+\begin{figure}[htbp]
+	\begin{minipage}[t]{0.4\textwidth} 
+	\begin{enumerate}
 	\item $\cos \measuredangle(\vec{a},\vec{b})=\frac{\Vert\vec{a}\Vert}
 	{\Vert\vec{b}\Vert} \qquad \frac{\textrm{Ankathete}}{\textrm{Hypotenuse}}$
 	\item $\sin\measuredangle(\vec{a},\vec{b})=\pm\frac{\Vert\vec{b}-\vec{a}\Vert}
 	{\Vert\vec{b}\Vert} \qquad \frac{\textrm{Gegenkathete}}{\textrm{Hypotenuse}}$
-\end{enumerate}
-%
-%
+	\end{enumerate}
+	\end{minipage}
+	\begin{minipage}[b]{0.4\textwidth}
+	\begin{figure}[H]
+	\centering 
+	\includegraphics[width=0.3\textwidth]{mainmatter/chapter1/pics/trigo3.png}
+	\end{figure}
+	\end{minipage}
+\end{figure}
 %
 \subsubsection{Beweis:}
 \begin{enumerate}

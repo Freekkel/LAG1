@@ -27,8 +27,16 @@ $A(B(xa+yb))=A(xB(a)+yB(b))=xAB(a)+yAB(b)$\\
 Komposition linearer Abbildungen:\\
 $A=\begin{pmatrix} a_{1} & b_{1} \\ a_{2} & b_{2} \end{pmatrix}; \ B=\begin{pmatrix} c_{1} & d_{1} \\ c_{2} & d_{2} \end{pmatrix}$ \\
 $A \circ B \ \begin{pmatrix}x_{1} \\ x_{2} \end{pmatrix} = \begin{pmatrix}a_{1} & b_{1} \\ a_{2} & b_{2} \end{pmatrix} \cdot \begin{pmatrix} c_{1}x_{1} + d_{1} x_{2} \\ c_{2}x_{1} + d_{2}x_{2} \end{pmatrix} = \begin{pmatrix} a_{1}c_{1}x_{1} + a_{1}d_{1}x_{2} & b_{1}c_{1}x_{1} + b_{1}d_{1}x_{2} \\ a_{2}c_{1}x_{1} + a_{2}d_{1}x_{2} & b_{2}c_{2}x_{1} + b_{2} d_{2}x_{2} \end{pmatrix} = \begin{pmatrix} a_{1} c_{1} + c_{2} b_{1} & a_{1} d_{1} + b_{1} d_{2} \\ a_{2} c_{1} + b_{2} c_{2} & a_{2}d_{1} + b_{2}d_{2} \end{pmatrix} \ \begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$\\
+\qquad\\
+\qquad\\
 $\begin{pmatrix} \textcolor{pred}{a_{1}} & \textcolor{pred}{b_{1}} \\ \textcolor{pviolet}{a_{2}} & \textcolor{pviolet}{b_{2}}\end{pmatrix} \cdot \begin{pmatrix} \textcolor{pgreen}{c_{1}} & \textcolor{pblue}{d_{1}} \\ \textcolor{pgreen}{c_{2}} & \textcolor{pblue}{d_{2}}\end{pmatrix} = \begin{pmatrix}\textcolor{pred}{a_{1}}\textcolor{pgreen}{c_{1}} + \textcolor{pred}{b_{1}}\textcolor{pgreen}{c_{2}}  & \textcolor{pred}{a_{1}}\textcolor{pblue}{d_{1}} + \textcolor{pred}{b_{1}}\textcolor{pblue}{d_{2}} \\ \textcolor{pviolet}{a_{2}}\textcolor{pgreen}{c_{1}}+\textcolor{pviolet}{b_{2}}\textcolor{pgreen}{c_{2}} & \textcolor{pviolet}{a_{2}} \textcolor{pblue}{d_{1}} + \textcolor{pviolet}{b_{2}}\textcolor{pblue}{d_{2}}\end{pmatrix}$\\
 \qquad\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]
+	{mainmatter/chapter1/pics/matrixmult.png}
+	\caption{Schema der Matrixmultiplikation} 
+\end{figure}
 Matrixmultiplikation entspricht Komposition von Abbildungen\\
 Sie ist im Allgemeinen nicht Kommutativ.\\
 \qquad\\
