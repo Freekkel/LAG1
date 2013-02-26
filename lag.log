@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.16)  24 FEB 2013 14:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  26 FEB 2013 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -14,8 +14,8 @@ reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
 n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
 speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
 lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
-celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, lo
-aded.
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
+ai, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2012/05/15 v3.11 KOMA-Script document class (book)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1676,30 +1676,74 @@ File: mainmatter/chapter1/pics/bewegung2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bewegung2.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/bewegung2.png used on input l
-ine 92.
+ine 91.
 (pdftex.def)             Requested size: 45.52718pt x 44.70761pt.
- [18 <./mainmatter/chapter1/pics/bewegung2.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--100
+
+ []
+
+[18 <./mainmatter/chapter1/pics/bewegung2.png>]
 <mainmatter/chapter1/pics/bewegung3.png, id=146, 413.545pt x 415.5525pt>
 File: mainmatter/chapter1/pics/bewegung3.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bewegung3.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/bewegung3.png used on input l
-ine 108.
+ine 107.
 (pdftex.def)             Requested size: 136.5746pt x 137.24054pt.
-)
-(./mainmatter/chapter1/isometrie.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--108
+
+ []
+
+) (./mainmatter/chapter1/isometrie.tex
 File: mainmatter/chapter1/pics/bewegung2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bewegung2.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/bewegung2.png used on input l
 ine 14.
 (pdftex.def)             Requested size: 45.52718pt x 44.70761pt.
- [19 <./mainmatter/chapter1/pics/bewegung3.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
+
+ []
+
+[19 <./mainmatter/chapter1/pics/bewegung3.png>]
 
 LaTeX Warning: Command \glqq invalid in math mode on input line 31.
 
 
 LaTeX Warning: Command \grqq invalid in math mode on input line 31.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--72
+
+ []
 
 [20] <mainmatter/chapter1/pics/winkelsumme.png, id=156, 262.9825pt x 192.72pt>
 File: mainmatter/chapter1/pics/winkelsumme.png Graphic file (type png)
@@ -1708,6 +1752,10 @@ File: mainmatter/chapter1/pics/winkelsumme.png Graphic file (type png)
 Package pdftex.def Info: mainmatter/chapter1/pics/winkelsumme.png used on input
  line 75.
 (pdftex.def)             Requested size: 91.04742pt x 66.72078pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--106
+
+ []
 
 <mainmatter/chapter1/pics/winkeladd.png, id=157, 663.47874pt x 215.80624pt>
 File: mainmatter/chapter1/pics/winkeladd.png Graphic file (type png)
@@ -1733,8 +1781,22 @@ File: mainmatter/chapter1/pics/gleichbeweis.png Graphic file (type png)
 Package pdftex.def Info: mainmatter/chapter1/pics/gleichbeweis.png used on inpu
 t line 140.
 (pdftex.def)             Requested size: 68.28383pt x 79.72789pt.
-)
-(./mainmatter/chapter1/trigonometrische_funktionen.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+) (./mainmatter/chapter1/trigonometrische_funktionen.tex
 <mainmatter/chapter1/pics/trigo1.png, id=165, 253.94875pt x 208.78pt>
 File: mainmatter/chapter1/pics/trigo1.png Graphic file (type png)
 
@@ -1742,11 +1804,27 @@ File: mainmatter/chapter1/pics/trigo1.png Graphic file (type png)
 Package pdftex.def Info: mainmatter/chapter1/pics/trigo1.png used on input line
  10.
 (pdftex.def)             Requested size: 68.28383pt x 56.13878pt.
-
-Underfull \vbox (badness 1082) has occurred while \output is active []
-
  [22 <./mainmatter/chapter1/pics/para.png> <./mainmatter/chapter1/pics/gleichbe
 weis.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 13--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+
+ []
+
 [23 <./mainmatter/chapter1/pics/trigo1.png>]
 <mainmatter/chapter1/pics/trigo2.png, id=178, 230.8625pt x 163.61125pt>
 File: mainmatter/chapter1/pics/trigo2.png Graphic file (type png)
@@ -1755,6 +1833,10 @@ File: mainmatter/chapter1/pics/trigo2.png Graphic file (type png)
 Package pdftex.def Info: mainmatter/chapter1/pics/trigo2.png used on input line
  88.
 (pdftex.def)             Requested size: 68.28383pt x 48.39221pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
 
 <mainmatter/chapter1/pics/trigo3.png, id=179, 130.4875pt x 130.4875pt>
 File: mainmatter/chapter1/pics/trigo3.png Graphic file (type png)
@@ -1772,24 +1854,69 @@ Package pdftex.def Info: mainmatter/chapter1/pics/gerade.png used on input line
  5.
 (pdftex.def)             Requested size: 91.04742pt x 73.11769pt.
  [24 <./mainmatter/chapter1/pics/trigo2.png> <./mainmatter/chapter1/pics/trigo3
-.png>] [25 <./mainmatter/chapter1/pics/gerade.png>]) (./mainmatter/chapter1/eul
-er_gerade_feuerbach_kreis.tex [26]
-<mainmatter/chapter1/pics/feuerbachkreis.png, id=194, 2041.6275pt x 1318.9275pt
+.png>]
+<mainmatter/chapter1/pics/abstd1.png, id=186, 247.92625pt x 205.76875pt>
+File: mainmatter/chapter1/pics/abstd1.png Graphic file (type png)
+
+<use mainmatter/chapter1/pics/abstd1.png>
+Package pdftex.def Info: mainmatter/chapter1/pics/abstd1.png used on input line
+ 41.
+(pdftex.def)             Requested size: 68.28383pt x 56.67291pt.
+
+<mainmatter/chapter1/pics/abstd2.png, id=187, 306.14375pt x 209.78375pt>
+File: mainmatter/chapter1/pics/abstd2.png Graphic file (type png)
+
+<use mainmatter/chapter1/pics/abstd2.png>
+Package pdftex.def Info: mainmatter/chapter1/pics/abstd2.png used on input line
+ 64.
+(pdftex.def)             Requested size: 68.28383pt x 46.78957pt.
+ [25 <./mainmatter/chapter1/pics/gerade.png> <./mainmatter/chapter1/pics/abstd1
+.png> <./mainmatter/chapter1/pics/abstd2.png>]) (./mainmatter/chapter1/euler_ge
+rade_feuerbach_kreis.tex [26]
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+
+ []
+
+
+<mainmatter/chapter1/pics/feuerbachkreis.png, id=198, 2041.6275pt x 1318.9275pt
 >
 File: mainmatter/chapter1/pics/feuerbachkreis.png Graphic file (type png)
  <use mainmatter/chapter1/pics/feuerbachkreis.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/feuerbachkreis.png used on in
 put line 96.
 (pdftex.def)             Requested size: 204.85844pt x 132.3231pt.
- [27]))
-(./mainmatter/chapter_2.tex [28 <./mainmatter/chapter1/pics/feuerbachkreis.png>
-]
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+)) (./mainmatter/chapter_2.tex [28 <./mainmatter/chapter1/pics/feuerbachkreis.p
+ng>]
 Kapitel 2.
-(./mainmatter/chapter2/raumr3.tex [29
+(./mainmatter/chapter2/raumr3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+
+ []
+
+) (./mainmatter/chapter2/paralellogramgesetz.tex
+<mainmatter/chapter2/pics/para1.png, id=206, 417.56pt x 162.6075pt>
+File: mainmatter/chapter2/pics/para1.png Graphic file (type png)
+
+<use mainmatter/chapter2/pics/para1.png>
+Package pdftex.def Info: mainmatter/chapter2/pics/para1.png used on input line 
+4.
+(pdftex.def)             Requested size: 204.85844pt x 79.77762pt.
+ [29
 
 
-])) [30] (./backmatter/listoffigures.tex
-(./lag.lof)
+])
+(./mainmatter/chapter2/geraden_und_ebenen.tex)) [30 <./mainmatter/chapter2/pics
+/para1.png>] (./backmatter/listoffigures.tex (./lag.lof)
 \tf@lof=\write5
 \openout5 = `lag.lof'.
 
@@ -1800,10 +1927,10 @@ Kapitel 2.
 
 ] (./lag.aux) ) 
 Here is how much of TeX's memory you used:
- 28198 strings out of 493493
- 558646 string characters out of 3143797
- 697545 words of memory out of 3000000
- 30798 multiletter control sequences out of 15000+200000
+ 28226 strings out of 493485
+ 559659 string characters out of 3143526
+ 698545 words of memory out of 3000000
+ 30817 multiletter control sequences out of 15000+200000
  39713 words of font info for 125 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,17n,78p,834b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1835,10 +1962,10 @@ ic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000
 mf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.
 pfb>
-Output written on lag.pdf (37 pages, 2284476 bytes).
+Output written on lag.pdf (37 pages, 2305327 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
+ 318 PDF objects out of 1000 (max. 8388607)
  195 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

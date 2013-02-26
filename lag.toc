@@ -102,13 +102,13 @@
 \contentsline {subsubsection}{Beweis:}{25}
 \contentsline {subsubsection}{Satz:}{25}
 \contentsline {subsubsection}{Beweis:}{25}
-\contentsline {subsubsection}{Satz:}{25}
+\contentsline {subsubsection}{Satz:}{26}
 \contentsline {subsubsection}{Beweis:}{26}
 \contentsline {section}{\numberline {1.10}Euler-Gerade und Feuerbach-Kreis}{26}
 \contentsline {subsubsection}{Definition:}{26}
 \contentsline {subsubsection}{Satz:}{26}
 \contentsline {subsubsection}{Beweis:}{26}
-\contentsline {subsubsection}{Satz (von Euler):}{26}
+\contentsline {subsubsection}{Satz (von Euler):}{27}
 \contentsline {subsubsection}{Beweis:}{27}
 \contentsline {subsubsection}{Definition (von Feuerbach):}{27}
 \contentsline {subsubsection}{Satz:}{27}
@@ -119,7 +119,7 @@
 \contentsline {subsubsection}{Rechenregeln:}{29}
 \contentsline {subsubsection}{Satz:}{29}
 \contentsline {subsubsection}{Beweis}{29}
-\contentsline {subsubsection}{Satz (Parallelogrammgesetz)}{29}
+\contentsline {section}{\numberline {2.1}Satz (Parallelogrammgesetz)}{30}
 \contentsline {subsubsection}{Beweis}{30}
-\contentsline {subsection}{\numberline {2.0.1}Geraden und Ebenen}{30}
+\contentsline {section}{\numberline {2.2}Geraden und Ebenen}{30}
 \contentsline {subsubsection}{Definition}{30}
