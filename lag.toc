@@ -6,13 +6,13 @@
 \contentsline {subsection}{\numberline {0.2.1}Definition: (Cantor)}{2}
 \contentsline {subsection}{\numberline {0.2.2}Definition:}{2}
 \contentsline {subsubsection}{Bemerkung:}{2}
-\contentsline {subsubsection}{Beispiel:}{3}
+\contentsline {subsubsection}{Beispiel:}{2}
 \contentsline {subsection}{\numberline {0.2.3}Definition: (von weiteren Operationen auf Mengen)}{3}
 \contentsline {subsection}{\numberline {0.2.4}Definition: (Relation)}{3}
-\contentsline {subsubsection}{Beispiel:}{4}
+\contentsline {subsubsection}{Beispiel:}{3}
 \contentsline {subsection}{\numberline {0.2.5}Definition: (Funktion, $\sim $Abbildung)}{4}
 \contentsline {subsubsection}{Beispiel: }{4}
-\contentsline {subsection}{\numberline {0.2.6}Definition: (injektiv, surjektiv, bijektiv)}{5}
+\contentsline {subsection}{\numberline {0.2.6}Definition: (injektiv, surjektiv, bijektiv)}{4}
 \contentsline {chapter}{\numberline {1}Der Raum $\mathbb {R}^{2}$}{7}
 \contentsline {subsection}{\numberline {1.0.7}Definition:}{7}
 \contentsline {subsection}{\numberline {1.0.8}Definition: (Basis)}{7}
@@ -143,3 +143,6 @@
 \contentsline {subsubsection}{Satz:}{33}
 \contentsline {subsubsection}{Winkelhalbierende:}{33}
 \contentsline {subsubsection}{Satz:}{33}
+\contentsline {section}{\numberline {3.2}Sondervorlesung Komplexe Zahlen}{33}
+\contentsline {subsection}{\numberline {3.2.1}Einf\IeC {\"u}hrung}{33}
+\contentsline {subsubsection}{$\mathbb {N}_{0}\rightarrow \mathbb {Z}$}{33}

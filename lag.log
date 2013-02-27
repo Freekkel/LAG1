@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  26 FEB 2013 23:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  27 FEB 2013 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,11 +1353,6 @@ Overfull \hbox (9.53474pt too wide) in paragraph at lines 3--13
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
-
- []
-
 [1
 
 
@@ -1402,7 +1397,7 @@ E/m/n/10 ù\OML/cmm/m/it/10 ; \OMX/MnSymbolE/m/n/10 ò\OT1/cmr/m/n/10 1\OML/cmm/m
 n/10 ùù$ 
  []
 
-<mainmatter/chapter0/pics/durchschnitt.png, id=55, 1313.90875pt x 1128.215pt>
+<mainmatter/chapter0/pics/durchschnitt.png, id=56, 1313.90875pt x 1128.215pt>
 File: mainmatter/chapter0/pics/durchschnitt.png Graphic file (type png)
 
 <use mainmatter/chapter0/pics/durchschnitt.png>
@@ -1442,16 +1437,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--109
 
  []
 
-[4 <./mainmatter/chapter0/pics/graphenkreis.png>]
-<mainmatter/chapter0/pics/abbildungen.jpg, id=70, 603.25375pt x 442.65375pt>
+<mainmatter/chapter0/pics/abbildungen.jpg, id=63, 603.25375pt x 442.65375pt>
 File: mainmatter/chapter0/pics/abbildungen.jpg Graphic file (type jpg)
 
 <use mainmatter/chapter0/pics/abbildungen.jpg>
 Package pdftex.def Info: mainmatter/chapter0/pics/abbildungen.jpg used on input
  line 137.
 (pdftex.def)             Requested size: 341.42812pt x 184.94742pt.
-)) (./mainmatter/chapter_1.tex
-[5 <./mainmatter/chapter0/pics/abbildungen.jpg>] [6
+) [4 <./mainmatter/chapter0/pics/graphenkreis.png>]) (./mainmatter/chapter_1.te
+x [5 <./mainmatter/chapter0/pics/abbildungen.jpg>] [6
 
 
 ]
@@ -1925,26 +1919,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
+<mainmatter/chapter1/pics/dreieck1.png, id=198, 486.81876pt x 341.275pt>
+File: mainmatter/chapter1/pics/dreieck1.png Graphic file (type png)
 
-<mainmatter/chapter1/pics/feuerbachkreis.png, id=198, 2041.6275pt x 1318.9275pt
+<use mainmatter/chapter1/pics/dreieck1.png>
+Package pdftex.def Info: mainmatter/chapter1/pics/dreieck1.png used on input li
+ne 71.
+(pdftex.def)             Requested size: 91.04742pt x 63.82747pt.
+ [27 <./mainmatter/chapter1/pics/dreieck1.png>]
+<mainmatter/chapter1/pics/dreieck2.png, id=203, 483.8075pt x 316.18124pt>
+File: mainmatter/chapter1/pics/dreieck2.png Graphic file (type png)
+
+<use mainmatter/chapter1/pics/dreieck2.png>
+Package pdftex.def Info: mainmatter/chapter1/pics/dreieck2.png used on input li
+ne 93.
+(pdftex.def)             Requested size: 91.04742pt x 59.50093pt.
+
+<mainmatter/chapter1/pics/feuerbachkreis.png, id=204, 2041.6275pt x 1318.9275pt
 >
 File: mainmatter/chapter1/pics/feuerbachkreis.png Graphic file (type png)
  <use mainmatter/chapter1/pics/feuerbachkreis.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/feuerbachkreis.png used on in
-put line 96.
+put line 98.
 (pdftex.def)             Requested size: 204.85844pt x 132.3231pt.
- [27]
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--105
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
 
  []
 
-)) (./mainmatter/chapter_2.tex [28 <./mainmatter/chapter1/pics/feuerbachkreis.p
-ng>]
+)) (./mainmatter/chapter_2.tex [28 <./mainmatter/chapter1/pics/dreieck2.png> <.
+/mainmatter/chapter1/pics/feuerbachkreis.png>]
 Kapitel 2.
 (./mainmatter/chapter2/raumr3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
@@ -1952,7 +1961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
  []
 
 ) (./mainmatter/chapter2/paralellogramgesetz.tex
-<mainmatter/chapter2/pics/para1.png, id=206, 417.56pt x 162.6075pt>
+<mainmatter/chapter2/pics/para1.png, id=210, 417.56pt x 162.6075pt>
 File: mainmatter/chapter2/pics/para1.png Graphic file (type png)
 
 <use mainmatter/chapter2/pics/para1.png>
@@ -1981,7 +1990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--57
  []
 
 
-<mainmatter/chapter3/pics/gauszschezahlenebene.png, id=215, 204.765pt x 141.528
+<mainmatter/chapter3/pics/gauszschezahlenebene.png, id=219, 204.765pt x 141.528
 75pt>
 File: mainmatter/chapter3/pics/gauszschezahlenebene.png Graphic file (type png)
 
@@ -1997,7 +2006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--69
 
  []
 
-<mainmatter/chapter3/pics/addition.png, id=220, 116.435pt x 70.2625pt>
+<mainmatter/chapter3/pics/addition.png, id=224, 116.435pt x 70.2625pt>
 File: mainmatter/chapter3/pics/addition.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/addition.png>
@@ -2005,7 +2014,7 @@ Package pdftex.def Info: mainmatter/chapter3/pics/addition.png used on input li
 ne 80.
 (pdftex.def)             Requested size: 45.52718pt x 27.473pt.
 
-<mainmatter/chapter3/pics/multiplikation.png, id=221, 384.43625pt x 132.495pt>
+<mainmatter/chapter3/pics/multiplikation.png, id=225, 384.43625pt x 132.495pt>
 File: mainmatter/chapter3/pics/multiplikation.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/multiplikation.png>
@@ -2031,10 +2040,10 @@ Missing character: There is no ¸ in font cmr10!
 
 ] (./lag.aux) ) 
 Here is how much of TeX's memory you used:
- 28356 strings out of 493485
- 562343 string characters out of 3143526
+ 28366 strings out of 493485
+ 562701 string characters out of 3143526
  702437 words of memory out of 3000000
- 30930 multiletter control sequences out of 15000+200000
+ 30938 multiletter control sequences out of 15000+200000
  39713 words of font info for 125 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,17n,78p,834b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2066,10 +2075,10 @@ ic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000
 mf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.
 pfb>
-Output written on lag.pdf (41 pages, 2330464 bytes).
+Output written on lag.pdf (41 pages, 2347840 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
+ 341 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
