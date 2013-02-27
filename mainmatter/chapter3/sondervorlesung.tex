@@ -7,4 +7,103 @@ $\mathbb{N}_{0}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}$
 %
 %
 %
-\subsubsection{$\mathbb{N}_{0}\rightarrow\mathbb{Z}$}
+\subsubsection{$\mathbb{N}_{0}\rightarrow\mathbb{Z}$:}
+$\mathbb{Z}:=\mathbb{N}_{0}\times\mathbb{N}_{0}$ (Betrachte Paare von natürlichen Zahlen)\\
+\qquad\\
+Äquivalenzklassen:\\
+$(n,m)\sim(n',m'):\Leftrightarrow n+m' = n'+m \Leftrightarrow n-m=n'-m'$\\
+$(n-m)\cdot(n'-m')=nn'+mm'-nm'-n'm$\\
+$(7,4)\sim(3,0)$\\
+$[n,m]:=\{(n',m')|(n',m')\sim(n,m)\}$\\
+\qquad\\
+Definiere, was auf diese Menge "`+"' und "`$\cdot$"' sein soll:\\
+$[n,m]+[n',m']:=[n'+m,n+m']$\\
+$[n,m]\cdot[n',m']:=[nn'+mm',nm'+n'm]$\\
+$n:=[n,0]$\qquad $-n:=[0,n]$
+%
+%
+%
+\subsubsection{$\mathbb{Z}\rightarrow\mathbb{Q}$:}
+$\mathbb{Q}=\mathbb{Z}\times\mathbb{Z}\diagdown N$\\
+$(a,b)\sim(a',b'):\Leftrightarrow ab'=ba' \qquad \frac{a}{b}=\frac{a'}{b'}\Leftrightarrow ab'=a'b$\\
+$\frac{a}{b}:=[a,b]$\\
+Addition: $[a,b]+[c,d]:=[ad+bc,bd]$\\
+Multiplikation: $[a,b]+[c,d]:=[ac,bd]$\\
+$\Rightarrow$ Multiplikation in $\mathbb{Q}$ ist genauso definiert wie Addition in $\mathbb{Z}$!
+%
+%
+%
+\subsubsection{$\mathbb{Q}\rightarrow\mathbb{R}$:}
+$\mathbb{R}:=\dotsc$\\
+Konstruktion sehr kompliziert, über Zahlenfolgen in $\mathbb{Q}$.
+$x^{2}+1=0$ hat in $\mathbb{R}$ keine Lösung\\
+$x^{2}\geq0 \, \forall x\in \mathbb{R}\Rightarrow x^{2}+1\geq1>0$\\
+Cauchi-Folge: Abstand zwischen Folgeglieder wird immer kleiner trotzdem u.U. kein Grenzwert in $\mathbb{Q}$
+%
+%
+%
+\subsubsection{$\mathbb{R}\rightarrow\mathbb{C}$:}
+$x^{2}\mp 0 \, \forall x\in\mathbb{R}\Rightarrow x^{2}+\geq>0$\\
+Wir suchen einen Körper $\mathbb{C}$ mit 
+\begin{enumerate}
+	\item $\mathbb{R}\subset\mathbb{C}$
+	\item Die Gleichung hat (mindestens) eine Lösung.
+\end{enumerate}
+Als Menge ist $\mathbb{C}:=\mathbb{R}\times\mathbb{R}=\{(x,y)|x,y\in\mathbb{R}\}$\\
+Wir definiere eine Addition durch folgende Vorschrift:\\
+$(a,b)+(c,d):=(a+c,b+d)$\\
+und eine Multiplikation durch:\\
+$(a,b)(c,d):=(ac-bd,ad+bc)$
+%
+%
+%
+\subsubsection{Behauptung:}
+$(\mathbb{C},+,\cdot)$ ist eine Körper mit $0=(0,0)$ (Nullelement)\\
+$1\mathop{=}\limits^{\text{*}}(1,0)$\\
+\qquad\\
+*($(a,b)(x,y)=(a,b)$\\
+$=(ax-by,ay+bx)$\\
+$ax-by=a$\\
+$bx+ay=b \leadsto(x,y)=(1,0)$)\\
+\qquad\\
+Betrachtet man Elemente der Form $(x,0) \in \mathbb{C}$, dann gilt:\\
+$(a,0)+(b,0)=(a+b,0)$\\
+$(a,0)\cdot(c,0)=(ac,0)$\\
+\qquad\\
+Wir können also $\mathbb{R}$ als Unterkörper von $\mathbb{C}$ (bzw. $\mathbb{C}$ als Körpererweiterung von $\mathbb{R}$) auffassen durch die Identifizierung:\\
+$\mathbb{R}\rightarrow\mathbb{C}$\\
+$a\rightarrow(a,0)$\\
+Was ist Nullstelle von $x^{2}+1=0$?
+ \begin{eqnarray*}
+	x&=&(a,b)\\
+    (0,0)=0=x^{2}+1 &=& (a,b)^{2}+(1,0) \\
+	&=& (a,b)(a,b)+(1,0) \leadsto \qquad \text{i.) }0\mathop{=}\limits^{\text{!}}a^{2}-b^{2}+1\\
+	&=& (a^{2}-b^{2},2ab)+(1,0) \leadsto \quad \text{ii.) } 0 \mathop{=}\limits^{\text{!}} 2ab\\
+	&=& (a^{2}-b^{2}+1,2ab) \leadsto \qquad \quad \text{iii.) } a=0 \text{ oder } b=0\\
+  \end{eqnarray*}
+\begin{itemize}
+	\item $b=0 \Rightarrow 0=a^{2}+1 \quad \lightning$
+	\item $a=0 \Rightarrow 0=-b^{2}+1\Rightarrow b = \pm\sqrt{1} = 1$
+\end{itemize}
+$
+x=\left\{
+\begin{array}{l}     
+    (0,1)\\
+    (0,-1)
+\end{array}\right.
+$\\
+\qquad\\
+Wir schreiben ab jetzt:\\
+$i:=(0,1)$\\
+$-i:=(0,-1)$\\
+und wir schreiben: $a:=(a,0)$ für $a\in\mathbb{R}$\\
+dann lässt sich jede komplexe Zahl wie folgt schreiben:\\
+$z=(a,b)\in\mathbb{C}=\underline{a+bi}$\\
+.[ 
+\begin{eqnarray*}
+a+bi &=& (a,0)+(b,0)\cdot(0,1)\\
+&=& (a,0)+(0,b\cdot1)\\
+&=& (a,b)\\
+\end{eqnarray*}
+Eine komplexe Zahl ist die Information, zweier reellen Zahlen $a$ und $b$ zu haben und ein Element $i$, das mit sich selbst multipliziert $-1$ ergibt.]\\
+$\mathbb{C}$ ist ein 2-dimensionaler $\mathbb{R}$-Vektorraum mit der Basis $(1,i)$.
