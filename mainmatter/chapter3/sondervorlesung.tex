@@ -74,13 +74,13 @@ Wir können also $\mathbb{R}$ als Unterkörper von $\mathbb{C}$ (bzw. $\mathbb{C
 $\mathbb{R}\rightarrow\mathbb{C}$\\
 $a\rightarrow(a,0)$\\
 Was ist Nullstelle von $x^{2}+1=0$?
- \begin{eqnarray*}
-	x&=&(a,b)\\
+ \begin{align}
+	x&=(a,b)\\
     (0,0)=0=x^{2}+1 &=& (a,b)^{2}+(1,0) \\
-	&=& (a,b)(a,b)+(1,0) \leadsto \qquad \text{i.) }0\mathop{=}\limits^{\text{!}}a^{2}-b^{2}+1\\
-	&=& (a^{2}-b^{2},2ab)+(1,0) \leadsto \quad \text{ii.) } 0 \mathop{=}\limits^{\text{!}} 2ab\\
-	&=& (a^{2}-b^{2}+1,2ab) \leadsto \qquad \quad \text{iii.) } a=0 \text{ oder } b=0\\
-  \end{eqnarray*}
+	&= (a,b)(a,b)+(1,0) \leadsto \qquad \text{i.) }0\mathop{=}\limits^{\text{!}}a^{2}-b^{2}+1\\
+	&= (a^{2}-b^{2},2ab)+(1,0) \leadsto \quad \text{ii.) } 0 \mathop{=}\limits^{\text{!}} 2ab\\
+	&= (a^{2}-b^{2}+1,2ab) \leadsto \qquad \quad \text{iii.) } a=0 \text{ oder } b=0\\
+  \end{align}
 \begin{itemize}
 	\item $b=0 \Rightarrow 0=a^{2}+1 \quad \lightning$
 	\item $a=0 \Rightarrow 0=-b^{2}+1\Rightarrow b = \pm\sqrt{1} = 1$
@@ -100,14 +100,15 @@ und wir schreiben: $a:=(a,0)$ für $a\in\mathbb{R}$\\
 dann lässt sich jede komplexe Zahl wie folgt schreiben:\\
 $z=(a,b)\in\mathbb{C}=\underline{a+bi}$\\
 .[ 
-\begin{eqnarray*}
-a+bi &=& (a,0)+(b,0)\cdot(0,1)\\
-&=& (a,0)+(0,b\cdot1)\\
-&=& (a,b)\\
-\end{eqnarray*}
+\begin{align}
+a+bi &= (a,0)+(b,0)\cdot(0,1)\\
+&= (a,0)+(0,b\cdot1)\\
+&= (a,b)\\
+\end{align}
 Eine komplexe Zahl ist die Information, zweier reellen Zahlen $a$ und $b$ zu haben und ein Element $i$, das mit sich selbst multipliziert $-1$ ergibt.\quad ]\\
 $\mathbb{C}$ ist ein 2-dimensionaler $\mathbb{R}$-Vektorraum mit der Basis $(1,i)$.\\
 $p(x)=0, \, p\in \mathbb{C}[x] \rightarrow$ Fundamentalsatz der Algebra: "`Jedes Polynom besitzt mindestens eine Nullstellen. Jedes Polynom hat so viele Nullstellen, wie sein Grad ist. "'\\
+\qquad\\
 \includegraphics[width=0.5\textwidth]{mainmatter/chapter3/pics/komplexkoord.png}
 %
 %
@@ -133,3 +134,33 @@ Für die komplexe Zahl $z=x+iy \forall x,y \in \mathbb{R}$ definieren wir:
 	\item $\vert z+w \vert \leq \vert z \vert + \vert w \vert$ (Dreiecksungleichung)
 	\end{enumerate}
 \end{enumerate}
+%
+%
+%
+\subsubsection{Inverses von $z$:}
+$z^{-1}=\frac{1}{z}=\frac{\overline{z}}{\vert z \vert^{2}}$\\
+Beispiel:\\
+$(1-2)^{-1}=\frac{1+i}{2}$\\
+$\begin{pmatrix} 1 \\ -1 \end{pmatrix}\Rightarrow\vert\sqrt{2}\vert$\\
+$\vert\sqrt{2}\vert^{2}=2$\\
+Vorzeichen vo dem i muss umgekehrt werden!
+\begin{figure}
+\centering
+\includegraphics[width=0.35\textwidth]{mainmatter/chapter3/pics/zrechnungen.png}
+\caption{$z$ und $\overline{z}$ gespiegelt an der x-Achse}
+\end{figure}
+\begin{align}
+z &= x+iy\\
+&= r\cos\varphi + ir\sin\varphi \rightarrow \text{Polarkoordinatenschreibweise}\\
+&= \vert z \vert \mathop{\underbrace{(\cos\varphi+i\sin\varphi)}}\limits_{\text{Alle Zahlen mit } \vert 1 \vert \text{ (liegen auf dem Einheitskreis) }}\\
+&\qquad \qquad \qquad \mathop{\Downarrow}\limits_{exp(i\varphi)=e^{i\varphi}}\\
+\end{align}
+$\Rightarrow$ Realteil bleibt gleicht, Imaginärteil wird ins negative verkehrt.\\
+komplexe Zahlen sind nicht sortierbar:\\
+$a>0\Rightarrow a^{2}>0$\\
+\begin{align}
+i^{2} &= -1 < 0\\
+(-i)^{2} &= -1<0\\
+i &=\sqrt{-1} \Rightarrow \text{stimmt, aber wir kennen Hintergrund noch nicht } \Rightarrow \text{ nicht so schreiben! }\\
+i\cdot i &= \sqrt{-1}\cdot\sqrt{-1} \neq \sqrt{(-1)\cdot(-1)}=\sqrt{1}=1
+\end{align}

@@ -1,153 +1,154 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {0}Grundbegriffe}{1}
-\contentsline {section}{\numberline {0.1}Aussagen}{1}
-\contentsline {subsection}{\numberline {0.1.1}Satz:}{1}
-\contentsline {section}{\numberline {0.2}Mengen}{2}
-\contentsline {subsection}{\numberline {0.2.1}Definition: (Cantor)}{2}
-\contentsline {subsection}{\numberline {0.2.2}Definition:}{2}
-\contentsline {subsubsection}{Bemerkung:}{2}
-\contentsline {subsubsection}{Beispiel:}{2}
-\contentsline {subsection}{\numberline {0.2.3}Definition: (von weiteren Operationen auf Mengen)}{3}
-\contentsline {subsection}{\numberline {0.2.4}Definition: (Relation)}{3}
-\contentsline {subsubsection}{Beispiel:}{3}
-\contentsline {subsection}{\numberline {0.2.5}Definition: (Funktion, $\sim $Abbildung)}{4}
-\contentsline {subsubsection}{Beispiel: }{4}
-\contentsline {subsection}{\numberline {0.2.6}Definition: (injektiv, surjektiv, bijektiv)}{4}
-\contentsline {chapter}{\numberline {1}Der Raum $\mathbb {R}^{2}$}{7}
-\contentsline {subsection}{\numberline {1.0.7}Definition:}{7}
-\contentsline {subsection}{\numberline {1.0.8}Definition: (Basis)}{7}
-\contentsline {subsubsection}{Beispiel:}{8}
-\contentsline {subsection}{\numberline {1.0.9}Definition: (Determinante)}{8}
-\contentsline {section}{\numberline {1.1}Cramersche Regel}{8}
-\contentsline {subsubsection}{Beweis: }{8}
-\contentsline {subsubsection}{Korollar:}{9}
-\contentsline {subsubsection}{Korollar:}{9}
-\contentsline {section}{\numberline {1.2}Geraden}{9}
-\contentsline {subsection}{\numberline {1.2.1}Definition: (Gerade)}{9}
-\contentsline {subsubsection}{Beispiel: }{9}
-\contentsline {subsection}{\numberline {1.2.2}Satz 1.2}{9}
-\contentsline {subsubsection}{Beweis:}{9}
-\contentsline {subsubsection}{Beispiel:}{10}
-\contentsline {section}{\numberline {1.3}Lineare Abbildungen}{10}
-\contentsline {subsubsection}{Beispiel: }{10}
-\contentsline {subsubsection}{Satz: }{10}
-\contentsline {subsubsection}{Beweis:}{10}
-\contentsline {subsubsection}{Satz:}{11}
-\contentsline {subsubsection}{Beweis:}{11}
-\contentsline {subsubsection}{Satz:}{11}
-\contentsline {subsubsection}{Beweis:}{12}
-\contentsline {section}{\numberline {1.4}Inverse Matrix, Basiswechsel}{12}
-\contentsline {subsubsection}{Satz:}{12}
-\contentsline {subsubsection}{Beweis:}{12}
-\contentsline {subsubsection}{Satz:}{12}
-\contentsline {subsubsection}{Beweis:}{13}
-\contentsline {subsubsection}{Beispiel:}{13}
-\contentsline {subsubsection}{Satz:}{13}
-\contentsline {subsubsection}{Beweis:}{13}
-\contentsline {subsubsection}{Beispiel:}{13}
-\contentsline {subsubsection}{Probe:}{13}
-\contentsline {subsubsection}{Satz:}{13}
-\contentsline {subsubsection}{Beweis:}{14}
-\contentsline {section}{\numberline {1.5}Satz von Pythagoras, L\IeC {\"a}nge und Skalarprodukt}{14}
-\contentsline {subsection}{\numberline {1.5.1}Satz des Pythagoras (1. Version)}{15}
-\contentsline {subsubsection}{Beweis:}{15}
-\contentsline {subsubsection}{Definition:}{15}
-\contentsline {subsubsection}{Bemerkung:}{15}
-\contentsline {subsubsection}{Definition:}{15}
-\contentsline {subsubsection}{Eigenschaften des Skalarprodukts}{15}
-\contentsline {subsection}{\numberline {1.5.2}Pythagoras (allgemein)}{15}
-\contentsline {subsubsection}{Beweis:}{15}
-\contentsline {subsection}{\numberline {1.5.3}Satz des Thales}{16}
-\contentsline {subsubsection}{Beweis:}{16}
-\contentsline {subsubsection}{Satz:}{16}
-\contentsline {subsubsection}{Beweis:}{16}
-\contentsline {subsubsection}{H\IeC {\"o}hensatz}{16}
-\contentsline {subsubsection}{Beweis:}{16}
-\contentsline {subsubsection}{Kathetensatz}{16}
-\contentsline {subsubsection}{Beweis:}{17}
-\contentsline {section}{\numberline {1.6}Bewegungen}{17}
-\contentsline {subsubsection}{Definition:}{17}
-\contentsline {subsubsection}{Satz:}{17}
-\contentsline {subsubsection}{Beweis:}{17}
-\contentsline {subsubsection}{Idee:}{18}
-\contentsline {subsubsection}{Fall \MakeUppercase {i}:}{18}
-\contentsline {subsubsection}{Fall \MakeUppercase {ii}:}{18}
-\contentsline {subsubsection}{Satz:}{18}
-\contentsline {subsubsection}{Satz:}{18}
-\contentsline {subsubsection}{Beweis:}{19}
-\contentsline {subsubsection}{Satz:}{19}
-\contentsline {section}{\numberline {1.7}Isometrie}{19}
-\contentsline {subsubsection}{Definition (Winkel):}{20}
-\contentsline {subsubsection}{Definition (Winkelhalbierende):}{20}
-\contentsline {subsubsection}{Satz:}{20}
-\contentsline {subsubsection}{Beweis:}{20}
-\contentsline {subsubsection}{Satz (Winkelsumme im Dreiecke):}{21}
-\contentsline {subsubsection}{Beweis:}{21}
-\contentsline {subsubsection}{Korollar:}{21}
-\contentsline {subsubsection}{Beweis:}{21}
-\contentsline {subsubsection}{Satz(Gleichschenklige Dreiecke):}{22}
-\contentsline {subsubsection}{Beweis:}{22}
-\contentsline {section}{\numberline {1.8}Trigonometrische Funktionen}{23}
-\contentsline {subsubsection}{Definition:}{23}
-\contentsline {subsubsection}{Satz:}{23}
-\contentsline {subsubsection}{Beweis:}{23}
-\contentsline {subsubsection}{Additionstheoreme:}{23}
-\contentsline {subsubsection}{Beweis:}{23}
-\contentsline {subsubsection}{Satz:}{24}
-\contentsline {subsubsection}{Beweis:}{24}
-\contentsline {subsubsection}{Beispiel:}{24}
-\contentsline {subsubsection}{Satz:}{24}
-\contentsline {subsubsection}{Beweis:}{24}
-\contentsline {section}{\numberline {1.9}Abst\IeC {\"a}nde}{25}
-\contentsline {subsubsection}{Beweis:}{25}
-\contentsline {subsubsection}{Satz:}{25}
-\contentsline {subsubsection}{Beweis:}{25}
-\contentsline {subsubsection}{Satz:}{26}
-\contentsline {subsubsection}{Beweis:}{26}
-\contentsline {section}{\numberline {1.10}Euler-Gerade und Feuerbach-Kreis}{26}
-\contentsline {subsubsection}{Definition:}{26}
-\contentsline {subsubsection}{Satz:}{26}
-\contentsline {subsubsection}{Beweis:}{26}
-\contentsline {subsubsection}{Satz (von Euler):}{27}
-\contentsline {subsubsection}{Beweis:}{27}
-\contentsline {subsubsection}{Definition (von Feuerbach):}{27}
-\contentsline {subsubsection}{Satz:}{27}
-\contentsline {subsubsection}{Beweis:}{27}
-\contentsline {subsubsection}{Korollar:}{28}
-\contentsline {chapter}{\numberline {2}Der Raum $\mathbb {R}^{3}$}{29}
-\contentsline {subsubsection}{Definition:}{29}
-\contentsline {subsubsection}{Rechenregeln:}{29}
-\contentsline {subsubsection}{Satz:}{29}
-\contentsline {subsubsection}{Beweis}{29}
-\contentsline {section}{\numberline {2.1}Satz (Parallelogrammgesetz)}{30}
-\contentsline {subsubsection}{Beweis}{30}
-\contentsline {section}{\numberline {2.2}Geraden und Ebenen}{30}
-\contentsline {subsubsection}{Definition}{30}
-\contentsline {subsubsection}{Definition:}{30}
-\contentsline {subsubsection}{Rechenregeln:}{30}
-\contentsline {subsubsection}{Satz:}{30}
-\contentsline {chapter}{\numberline {3}K\IeC {\"o}rper}{31}
-\contentsline {section}{\numberline {3.1}Aus der normalen Vorlesung}{31}
-\contentsline {subsubsection}{Definition:}{31}
-\contentsline {subsubsection}{Beispiel:}{31}
-\contentsline {subsubsection}{Schreibweise:}{31}
-\contentsline {subsubsection}{Behauptung:}{31}
-\contentsline {subsubsection}{ }{31}
-\contentsline {subsubsection}{neutrales Elements der Multiplikation}{32}
-\contentsline {subsubsection}{Addition:}{32}
-\contentsline {subsubsection}{Multiplikation:}{32}
-\contentsline {subsubsection}{Satz:}{32}
-\contentsline {subsubsection}{Korollar (de Moivre)}{32}
-\contentsline {subsubsection}{Definition:}{32}
-\contentsline {subsubsection}{Beispiel:}{32}
-\contentsline {subsubsection}{Satz:}{33}
-\contentsline {subsubsection}{Winkelhalbierende:}{33}
-\contentsline {subsubsection}{Satz:}{33}
-\contentsline {section}{\numberline {3.2}Sondervorlesung Komplexe Zahlen}{33}
-\contentsline {subsection}{\numberline {3.2.1}Einf\IeC {\"u}hrung}{33}
-\contentsline {subsubsection}{$\mathbb {N}_{0}\rightarrow \mathbb {Z}$:}{33}
-\contentsline {subsubsection}{$\mathbb {Z}\rightarrow \mathbb {Q}$:}{33}
-\contentsline {subsubsection}{$\mathbb {Q}\rightarrow \mathbb {R}$:}{34}
-\contentsline {subsubsection}{$\mathbb {R}\rightarrow \mathbb {C}$:}{34}
-\contentsline {subsubsection}{Behauptung:}{34}
-\contentsline {subsection}{\numberline {3.2.2}Definitionen:}{35}
+\contentsline {chapter}{\numberline {0}Grundbegriffe}{1}{chapter.0}
+\contentsline {section}{\numberline {0.1}Aussagen}{1}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Satz:}{1}{subsection.0.1.1}
+\contentsline {section}{\numberline {0.2}Mengen}{2}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}Definition: (Cantor)}{2}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.2}Definition:}{2}{subsection.0.2.2}
+\contentsline {subsubsection}{Bemerkung:}{2}{subsubsection*.2}
+\contentsline {subsubsection}{Beispiel:}{2}{subsubsection*.3}
+\contentsline {subsection}{\numberline {0.2.3}Definition: (von weiteren Operationen auf Mengen)}{3}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.4}Definition: (Relation)}{3}{subsection.0.2.4}
+\contentsline {subsubsection}{Beispiel:}{3}{subsubsection*.4}
+\contentsline {subsection}{\numberline {0.2.5}Definition: (Funktion, $\sim $Abbildung)}{4}{subsection.0.2.5}
+\contentsline {subsubsection}{Beispiel: }{4}{subsubsection*.5}
+\contentsline {subsection}{\numberline {0.2.6}Definition: (injektiv, surjektiv, bijektiv)}{4}{subsection.0.2.6}
+\contentsline {chapter}{\numberline {1}Der Raum $\mathbb {R}^{2}$}{7}{chapter.1}
+\contentsline {subsection}{\numberline {1.0.7}Definition:}{7}{subsection.1.0.7}
+\contentsline {subsection}{\numberline {1.0.8}Definition: (Basis)}{7}{subsection.1.0.8}
+\contentsline {subsubsection}{Beispiel:}{8}{subsubsection*.6}
+\contentsline {subsection}{\numberline {1.0.9}Definition: (Determinante)}{8}{subsection.1.0.9}
+\contentsline {section}{\numberline {1.1}Cramersche Regel}{8}{section.1.1}
+\contentsline {subsubsection}{Beweis: }{8}{subsubsection*.7}
+\contentsline {subsubsection}{Korollar:}{9}{subsubsection*.8}
+\contentsline {subsubsection}{Korollar:}{9}{subsubsection*.9}
+\contentsline {section}{\numberline {1.2}Geraden}{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Definition: (Gerade)}{9}{subsection.1.2.1}
+\contentsline {subsubsection}{Beispiel: }{9}{subsubsection*.10}
+\contentsline {subsection}{\numberline {1.2.2}Satz 1.2}{9}{subsection.1.2.2}
+\contentsline {subsubsection}{Beweis:}{9}{subsubsection*.11}
+\contentsline {subsubsection}{Beispiel:}{10}{subsubsection*.12}
+\contentsline {section}{\numberline {1.3}Lineare Abbildungen}{10}{section.1.3}
+\contentsline {subsubsection}{Beispiel: }{10}{subsubsection*.13}
+\contentsline {subsubsection}{Satz: }{10}{subsubsection*.14}
+\contentsline {subsubsection}{Beweis:}{10}{subsubsection*.15}
+\contentsline {subsubsection}{Satz:}{11}{subsubsection*.16}
+\contentsline {subsubsection}{Beweis:}{11}{subsubsection*.17}
+\contentsline {subsubsection}{Satz:}{11}{subsubsection*.18}
+\contentsline {subsubsection}{Beweis:}{12}{subsubsection*.19}
+\contentsline {section}{\numberline {1.4}Inverse Matrix, Basiswechsel}{12}{section.1.4}
+\contentsline {subsubsection}{Satz:}{12}{subsubsection*.20}
+\contentsline {subsubsection}{Beweis:}{12}{subsubsection*.21}
+\contentsline {subsubsection}{Satz:}{12}{subsubsection*.22}
+\contentsline {subsubsection}{Beweis:}{13}{subsubsection*.23}
+\contentsline {subsubsection}{Beispiel:}{13}{subsubsection*.24}
+\contentsline {subsubsection}{Satz:}{13}{subsubsection*.25}
+\contentsline {subsubsection}{Beweis:}{13}{subsubsection*.26}
+\contentsline {subsubsection}{Beispiel:}{13}{subsubsection*.27}
+\contentsline {subsubsection}{Probe:}{13}{subsubsection*.28}
+\contentsline {subsubsection}{Satz:}{13}{subsubsection*.29}
+\contentsline {subsubsection}{Beweis:}{14}{subsubsection*.30}
+\contentsline {section}{\numberline {1.5}Satz von Pythagoras, L\IeC {\"a}nge und Skalarprodukt}{14}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Satz des Pythagoras (1. Version)}{15}{subsection.1.5.1}
+\contentsline {subsubsection}{Beweis:}{15}{subsubsection*.31}
+\contentsline {subsubsection}{Definition:}{15}{subsubsection*.32}
+\contentsline {subsubsection}{Bemerkung:}{15}{subsubsection*.33}
+\contentsline {subsubsection}{Definition:}{15}{subsubsection*.34}
+\contentsline {subsubsection}{Eigenschaften des Skalarprodukts}{15}{subsubsection*.35}
+\contentsline {subsection}{\numberline {1.5.2}Pythagoras (allgemein)}{15}{subsection.1.5.2}
+\contentsline {subsubsection}{Beweis:}{15}{subsubsection*.36}
+\contentsline {subsection}{\numberline {1.5.3}Satz des Thales}{16}{subsection.1.5.3}
+\contentsline {subsubsection}{Beweis:}{16}{subsubsection*.37}
+\contentsline {subsubsection}{Satz:}{16}{subsubsection*.38}
+\contentsline {subsubsection}{Beweis:}{16}{subsubsection*.39}
+\contentsline {subsubsection}{H\IeC {\"o}hensatz}{16}{subsubsection*.40}
+\contentsline {subsubsection}{Beweis:}{16}{subsubsection*.41}
+\contentsline {subsubsection}{Kathetensatz}{16}{subsubsection*.42}
+\contentsline {subsubsection}{Beweis:}{17}{subsubsection*.43}
+\contentsline {section}{\numberline {1.6}Bewegungen}{17}{section.1.6}
+\contentsline {subsubsection}{Definition:}{17}{subsubsection*.44}
+\contentsline {subsubsection}{Satz:}{17}{subsubsection*.45}
+\contentsline {subsubsection}{Beweis:}{17}{subsubsection*.46}
+\contentsline {subsubsection}{Idee:}{18}{subsubsection*.47}
+\contentsline {subsubsection}{Fall \MakeUppercase {i}:}{18}{subsubsection*.48}
+\contentsline {subsubsection}{Fall \MakeUppercase {ii}:}{18}{subsubsection*.49}
+\contentsline {subsubsection}{Satz:}{18}{subsubsection*.50}
+\contentsline {subsubsection}{Satz:}{18}{subsubsection*.51}
+\contentsline {subsubsection}{Beweis:}{19}{subsubsection*.52}
+\contentsline {subsubsection}{Satz:}{19}{subsubsection*.53}
+\contentsline {section}{\numberline {1.7}Isometrie}{19}{section.1.7}
+\contentsline {subsubsection}{Definition (Winkel):}{20}{subsubsection*.54}
+\contentsline {subsubsection}{Definition (Winkelhalbierende):}{20}{subsubsection*.55}
+\contentsline {subsubsection}{Satz:}{20}{subsubsection*.56}
+\contentsline {subsubsection}{Beweis:}{20}{subsubsection*.57}
+\contentsline {subsubsection}{Satz (Winkelsumme im Dreiecke):}{21}{subsubsection*.58}
+\contentsline {subsubsection}{Beweis:}{21}{subsubsection*.59}
+\contentsline {subsubsection}{Korollar:}{21}{subsubsection*.60}
+\contentsline {subsubsection}{Beweis:}{21}{subsubsection*.61}
+\contentsline {subsubsection}{Satz(Gleichschenklige Dreiecke):}{22}{subsubsection*.62}
+\contentsline {subsubsection}{Beweis:}{22}{subsubsection*.63}
+\contentsline {section}{\numberline {1.8}Trigonometrische Funktionen}{23}{section.1.8}
+\contentsline {subsubsection}{Definition:}{23}{subsubsection*.64}
+\contentsline {subsubsection}{Satz:}{23}{subsubsection*.65}
+\contentsline {subsubsection}{Beweis:}{23}{subsubsection*.66}
+\contentsline {subsubsection}{Additionstheoreme:}{23}{subsubsection*.67}
+\contentsline {subsubsection}{Beweis:}{23}{subsubsection*.68}
+\contentsline {subsubsection}{Satz:}{24}{subsubsection*.69}
+\contentsline {subsubsection}{Beweis:}{24}{subsubsection*.70}
+\contentsline {subsubsection}{Beispiel:}{24}{subsubsection*.71}
+\contentsline {subsubsection}{Satz:}{24}{subsubsection*.72}
+\contentsline {subsubsection}{Beweis:}{24}{subsubsection*.73}
+\contentsline {section}{\numberline {1.9}Abst\IeC {\"a}nde}{25}{section.1.9}
+\contentsline {subsubsection}{Beweis:}{25}{subsubsection*.74}
+\contentsline {subsubsection}{Satz:}{25}{subsubsection*.75}
+\contentsline {subsubsection}{Beweis:}{25}{subsubsection*.76}
+\contentsline {subsubsection}{Satz:}{26}{subsubsection*.77}
+\contentsline {subsubsection}{Beweis:}{26}{subsubsection*.78}
+\contentsline {section}{\numberline {1.10}Euler-Gerade und Feuerbach-Kreis}{26}{section.1.10}
+\contentsline {subsubsection}{Definition:}{26}{subsubsection*.79}
+\contentsline {subsubsection}{Satz:}{26}{subsubsection*.80}
+\contentsline {subsubsection}{Beweis:}{26}{subsubsection*.81}
+\contentsline {subsubsection}{Satz (von Euler):}{27}{subsubsection*.82}
+\contentsline {subsubsection}{Beweis:}{27}{subsubsection*.83}
+\contentsline {subsubsection}{Definition (von Feuerbach):}{27}{subsubsection*.84}
+\contentsline {subsubsection}{Satz:}{27}{subsubsection*.85}
+\contentsline {subsubsection}{Beweis:}{27}{subsubsection*.86}
+\contentsline {subsubsection}{Korollar:}{28}{subsubsection*.87}
+\contentsline {chapter}{\numberline {2}Der Raum $\mathbb {R}^{3}$}{29}{chapter.2}
+\contentsline {subsubsection}{Definition:}{29}{subsubsection*.88}
+\contentsline {subsubsection}{Rechenregeln:}{29}{subsubsection*.89}
+\contentsline {subsubsection}{Satz:}{29}{subsubsection*.90}
+\contentsline {subsubsection}{Beweis}{29}{subsubsection*.91}
+\contentsline {section}{\numberline {2.1}Satz (Parallelogrammgesetz)}{30}{section.2.1}
+\contentsline {subsubsection}{Beweis}{30}{subsubsection*.92}
+\contentsline {section}{\numberline {2.2}Geraden und Ebenen}{30}{section.2.2}
+\contentsline {subsubsection}{Definition}{30}{subsubsection*.93}
+\contentsline {subsubsection}{Definition:}{30}{subsubsection*.94}
+\contentsline {subsubsection}{Rechenregeln:}{30}{subsubsection*.95}
+\contentsline {subsubsection}{Satz:}{30}{subsubsection*.96}
+\contentsline {chapter}{\numberline {3}K\IeC {\"o}rper}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Aus der normalen Vorlesung}{31}{section.3.1}
+\contentsline {subsubsection}{Definition:}{31}{subsubsection*.97}
+\contentsline {subsubsection}{Beispiel:}{31}{subsubsection*.98}
+\contentsline {subsubsection}{Schreibweise:}{31}{subsubsection*.99}
+\contentsline {subsubsection}{Behauptung:}{31}{subsubsection*.100}
+\contentsline {subsubsection}{ }{31}{subsubsection*.101}
+\contentsline {subsubsection}{neutrales Elements der Multiplikation}{32}{subsubsection*.102}
+\contentsline {subsubsection}{Addition:}{32}{subsubsection*.103}
+\contentsline {subsubsection}{Multiplikation:}{32}{subsubsection*.104}
+\contentsline {subsubsection}{Satz:}{32}{subsubsection*.105}
+\contentsline {subsubsection}{Korollar (de Moivre)}{32}{subsubsection*.106}
+\contentsline {subsubsection}{Definition:}{32}{subsubsection*.107}
+\contentsline {subsubsection}{Beispiel:}{32}{subsubsection*.108}
+\contentsline {subsubsection}{Satz:}{33}{subsubsection*.109}
+\contentsline {subsubsection}{Winkelhalbierende:}{33}{subsubsection*.110}
+\contentsline {subsubsection}{Satz:}{33}{subsubsection*.111}
+\contentsline {section}{\numberline {3.2}Sondervorlesung Komplexe Zahlen}{33}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Einf\IeC {\"u}hrung}{33}{subsection.3.2.1}
+\contentsline {subsubsection}{$\mathbb {N}_{0}\rightarrow \mathbb {Z}$:}{33}{subsubsection*.112}
+\contentsline {subsubsection}{$\mathbb {Z}\rightarrow \mathbb {Q}$:}{33}{subsubsection*.113}
+\contentsline {subsubsection}{$\mathbb {Q}\rightarrow \mathbb {R}$:}{34}{subsubsection*.114}
+\contentsline {subsubsection}{$\mathbb {R}\rightarrow \mathbb {C}$:}{34}{subsubsection*.115}
+\contentsline {subsubsection}{Behauptung:}{34}{subsubsection*.116}
+\contentsline {subsection}{\numberline {3.2.2}Definitionen:}{35}{subsection.3.2.2}
+\contentsline {subsubsection}{Inverses von $z$:}{36}{subsubsection*.117}
