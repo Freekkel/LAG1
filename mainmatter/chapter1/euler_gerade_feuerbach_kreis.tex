@@ -6,7 +6,7 @@
 $a,b,c$ sei ein Dreieck
 \begin{enumerate}
 	\item Seitenhalbierende: Verbindung von $\vec{a}$ mit $\frac{1}{2}(\vec{b}+\vec{c})$
-	\item Mittelsenkrechte: Senkrechte auf $b-a$ durch $\frac{b-a}{2}$
+	\item Mittelsenkrechte: Senkrechte auf $b-a$ durch $\frac{b+a}{2}$
 	\item Höhe: durch $a$ ist das Lot von $a$ auf $c-b$
 \end{enumerate}
 %
@@ -14,9 +14,10 @@ $a,b,c$ sei ein Dreieck
 %
 \subsubsection{Satz:}
 \begin{enumerate}
-	\item Die Seitenhalbierenden schneiden sich in einem Punkt$s$: "`Schwerpunkt"'.
-	\item Die Mittelsenkrechten schneiden sich in einem Punkt $m$: "`Schwerpunkt"'.
-	\item Die Höhen schneiden sich in einem Punkt$h$: "`Höhenschnittpunkt"'.
+	\item Die Seitenhalbierenden schneiden sich in einem Punkt $s$: "`Schwerpunkt"'.
+	\item Die Mittelsenkrechten schneiden sich in einem Punkt $m$:
+	 "`Umkreismittelpunkt"'.
+	\item Die Höhen schneiden sich in einem Punkt $h$: "`Höhenschnittpunkt"'.
 \end{enumerate}
 %
 %
@@ -69,17 +70,17 @@ Verschiebe so, dass $s=\vec{0}$ also $a+b+c=0$
 \begin{enumerate}
 	\item $K$ ist Umkreis des \includegraphics[width=0.2\textwidth]
 	{mainmatter/chapter1/pics/dreieck1.png} durch die Seitenmitten $\Rightarrow f$ liegt 
-	auf dessen Mittelsenkrechte, erfüllt daher \\ 
-	$<\frac{a+c}{2}-\frac{b+c}{2},f>$\\
+	auf dessen Mittelsenkrechte, erfüllt daher 
+	\item$<\frac{a+c}{2}-\frac{b+c}{2},f>$\\
 	$=<\frac{a+c}{2}-\frac{b+c}{2}, \frac{a+b+2c}{2}>$\\
 	$= <a-b,f> -\frac{1}{4}\mathop{\underbrace{<a-b,a+b>}}\limits_{2<a-b,m>}$\\
-	$=<a-b,-\frac{m}{2}$\\
+	$=<a-b,-\frac{m}{2}>$\\
 	Genauso $<b-c,f>=<b-c,-\frac{m}{2}>,..., \text{d.h. }2f+m=\vec{0}$ tut's. f liegt auf 
 	allen 3 Höhen durch $-\frac{m}{2} \Rightarrow f = -\frac{m}{2}$\\
 	$\frac{1}{2}(h+m)\mathop{=}\limits^{\text{Euler}}\frac{1}{2}(-2m+m)=-\frac{1}{2}
 	(-2f)=f$
 	\item $r_{\text{K}}=\Vert f-\frac{a+b}{2}\Vert\mathop{=}\limits^{s=0}\Vert f+\frac{c}
-	{2}\Vert = \Vert c-m \Vert = \frac{1}{2} \quad r_{\text{Umkreis}}$
+	{2}\Vert = \frac{1}{2}\Vert c-m \Vert = \frac{1}{2} \quad r_{\text{Umkreis}}$
 	\item $\Vert \frac{h+a}{2}-f \Vert \mathop{=}\limits^{\text{Euler}}_{h=-2m (1.))}\Vert 
 	-m+\frac{a}{2}+\frac{m}{2}\Vert = \frac{1}{2} \Vert m-a \Vert  
 	\mathop{=}\limits^{2.)}r_{\text{K}}$
@@ -90,8 +91,8 @@ Verschiebe so, dass $s=\vec{0}$ also $a+b+c=0$
 		\item und $f$ auf die Mitte dazwischen (nach 2.) 
 	\end{itemize}
 	$\Rightarrow$ Das Dreieck \includegraphics[width=0.2\textwidth]
-	{mainmatter/chapter1/pics/dreieck2.png} ist gleichschenklig $\Vert hc-f \Vert = \Vert 
-	\frac{a+n}{2} -f \Vert$ (Pythagoras)
+	{mainmatter/chapter1/pics/dreieck2.png} ist gleichschenklig $\Vert h_{c}-f \Vert = \Vert 
+	\frac{a+b}{2} -f \Vert$ (Pythagoras)
 	\begin{figure} [H]
 	\centering
 	\includegraphics[width=0.45\textwidth]
@@ -99,8 +100,8 @@ Verschiebe so, dass $s=\vec{0}$ also $a+b+c=0$
 	\caption{Der Feuerbachkreis}
 	\end{figure}
 \end{enumerate}
-Projeziere $\mathcal{E}$ auf die Gerade $ab$. \\
-Dann liegt das Bild von $f$ in der Mitte zum Seitenmittelpunkt und Fußpunkt der Höhe\\
+Projeziere die Euler-Gerade $\mathcal{E}$ auf die Gerade $ab$. \\
+Dann liegt das Bild von $f$ in der Mitte zum Seitenmittelpunkt und Fußpunkt der Höhe $h_{c}$\\
 $\Rightarrow \Vert f-\frac{a+b}{2}\Vert = r_{\text{F-Kreis}}=\Vert f-h_{c} \Vert$\\
 $\Rightarrow h_{c}$ liegt auf dem F-Kreis\\
 \qquad\\

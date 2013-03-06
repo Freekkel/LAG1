@@ -105,5 +105,31 @@ a+bi &=& (a,0)+(b,0)\cdot(0,1)\\
 &=& (a,0)+(0,b\cdot1)\\
 &=& (a,b)\\
 \end{eqnarray*}
-Eine komplexe Zahl ist die Information, zweier reellen Zahlen $a$ und $b$ zu haben und ein Element $i$, das mit sich selbst multipliziert $-1$ ergibt.]\\
-$\mathbb{C}$ ist ein 2-dimensionaler $\mathbb{R}$-Vektorraum mit der Basis $(1,i)$.
+Eine komplexe Zahl ist die Information, zweier reellen Zahlen $a$ und $b$ zu haben und ein Element $i$, das mit sich selbst multipliziert $-1$ ergibt.\quad ]\\
+$\mathbb{C}$ ist ein 2-dimensionaler $\mathbb{R}$-Vektorraum mit der Basis $(1,i)$.\\
+$p(x)=0, \, p\in \mathbb{C}[x] \rightarrow$ Fundamentalsatz der Algebra: "`Jedes Polynom besitzt mindestens eine Nullstellen. Jedes Polynom hat so viele Nullstellen, wie sein Grad ist. "'\\
+\includegraphics[width=0.5\textwidth]{mainmatter/chapter3/pics/komplexkoord.png}
+%
+%
+%
+\subsection{Definitionen:}
+Für die komplexe Zahl $z=x+iy \forall x,y \in \mathbb{R}$ definieren wir:
+\begin{enumerate}
+\item $RE(z):=x$ Realteil von $z$\\
+	$Im(z):=y$ Imaginärteil von $z \rightarrow$ (Nur $y$, nicht $i$, wichtig!)\\
+	$\leadsto z=Re(z)+i\,Im(z)$
+\item $\overline{z}:=x-iy=Re(z)-i\,Im(z)$ zu $z$ komplex konjugierte Zahl. \\
+	.[ $z\cdot\overline{z} = (x+iy)(x-iy) = x^{2}+iyx-ixy-i^{2}y^{2} = x^{2}+y^{2}\geq0$ .]
+\item $\vert z\vert :=\sqrt{z\overline{z}}$ Betrag von $z$, $\sqrt{}$ = positive reelle Wurzel.\\
+	\begin{enumerate}
+	\item $\overline{z}=z$
+	\item $\overline{z+w}=\overline{z}+\overline{w}$  (Konjugation ist lineare Abbildung 
+	$\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$)\\
+	$\overline{z\cdot w} = \overline{z}\cdot\overline{w}$
+	\item $z=z\Leftrightarrow Im(z)\Leftrightarrow z\in \mathbb{R}$\\
+	$z=-\overline{z}\Leftrightarrow Re(z)=0\Leftrightarrow z \in i\cdot\mathbb{R}$
+	\item $Re(z)=\frac{1}{2}(z+\overline{z}), \,Im(z)=\frac{1}{2i}(z-\overline{z})$
+	\item$\vert z\vert \geq 0, \,  \vert z \vert = 0 \Leftrightarrow z = 0$
+	\item $\vert z+w \vert \leq \vert z \vert + \vert w \vert$ (Dreiecksungleichung)
+	\end{enumerate}
+\end{enumerate}

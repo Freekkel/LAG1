@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  27 FEB 2013 23:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  5 MAR 2013 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,28 +1130,28 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidth=\dimen265
 \titlewidthlast=\dimen266
 \titlewidthfirst=\dimen267
-) (./lag.aux)
+)
+No file lag.aux.
 \openout1 = `lag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1331,12 +1331,12 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) (./lag.toc)
+)
+No file lag.toc.
 \tf@toc=\write4
 \openout4 = `lag.toc'.
 
-) [3]
-[4
+) [3] [4
 
 
 ] (./mainmatter/chapter_0.tex
@@ -1366,7 +1366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<mainmatter/chapter0/pics/menge.png, id=46, 578.16pt x 495.8525pt>
+<mainmatter/chapter0/pics/menge.png, id=43, 578.16pt x 495.8525pt>
 File: mainmatter/chapter0/pics/menge.png Graphic file (type png)
 
 <use mainmatter/chapter0/pics/menge.png>
@@ -1915,7 +1915,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/abstd2.png used on input line
  [25 <./mainmatter/chapter1/pics/gerade.png> <./mainmatter/chapter1/pics/abstd1
 .png> <./mainmatter/chapter1/pics/abstd2.png>]) (./mainmatter/chapter1/euler_ge
 rade_feuerbach_kreis.tex [26]
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
@@ -1924,7 +1924,7 @@ File: mainmatter/chapter1/pics/dreieck1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/dreieck1.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/dreieck1.png used on input li
-ne 71.
+ne 72.
 (pdftex.def)             Requested size: 91.04742pt x 63.82747pt.
  [27 <./mainmatter/chapter1/pics/dreieck1.png>]
 <mainmatter/chapter1/pics/dreieck2.png, id=203, 483.8075pt x 316.18124pt>
@@ -1932,7 +1932,7 @@ File: mainmatter/chapter1/pics/dreieck2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/dreieck2.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/dreieck2.png used on input li
-ne 93.
+ne 94.
 (pdftex.def)             Requested size: 91.04742pt x 59.50093pt.
 
 <mainmatter/chapter1/pics/feuerbachkreis.png, id=204, 2041.6275pt x 1318.9275pt
@@ -1940,15 +1940,15 @@ ne 93.
 File: mainmatter/chapter1/pics/feuerbachkreis.png Graphic file (type png)
  <use mainmatter/chapter1/pics/feuerbachkreis.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/feuerbachkreis.png used on in
-put line 98.
+put line 99.
 (pdftex.def)             Requested size: 204.85844pt x 132.3231pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
@@ -2057,22 +2057,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--103
 
  []
 
-[34])) [35] [36
+[34] <mainmatter/chapter3/pics/komplexkoord.png, id=238, 481.8pt x 429.605pt>
+File: mainmatter/chapter3/pics/komplexkoord.png Graphic file (type png)
 
+<use mainmatter/chapter3/pics/komplexkoord.png>
+Package pdftex.def Info: mainmatter/chapter3/pics/komplexkoord.png used on inpu
+t line 111.
+(pdftex.def)             Requested size: 227.62204pt x 202.96321pt.
 
-] (./backmatter/listoffigures.tex (./lag.lof)
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+[35 <./mainmatter/chapter3/pics/komplexkoord.png>])) [36]
+(./backmatter/listoffigures.tex
+No file lag.lof.
 \tf@lof=\write5
 \openout5 = `lag.lof'.
 
 ) [37
 
 
+
+
 ] (./lag.aux) ) 
 Here is how much of TeX's memory you used:
  28366 strings out of 493485
- 562701 string characters out of 3143526
+ 562864 string characters out of 3143526
  702437 words of memory out of 3000000
- 30938 multiletter control sequences out of 15000+200000
+ 30943 multiletter control sequences out of 15000+200000
  39713 words of font info for 125 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,17n,78p,834b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2104,10 +2117,10 @@ ic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000
 mf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.
 pfb>
-Output written on lag.pdf (43 pages, 2354511 bytes).
+Output written on lag.pdf (43 pages, 2366958 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 350 PDF objects out of 1000 (max. 8388607)
  208 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
