@@ -1,0 +1,92 @@
+\section{Vektorräume}
+%
+%
+%
+\subsection{Vektorraum}
+%
+\subsubsection{Definition :}
+Ein $K$-Vektorraum $V$ ist eine Menge für die gilt:
+\begin{itemize}
+	\item $\vec{0}\in V$
+	\item für je zwei Vektoren $\vec{v},\vec{w}\in V$ ist $\vec{v}+\vec{w}$ erklärt und $v \in V, 
+		\, \lambda \in \mathbb{R} \, \lambda \cdot \vec{v} \in V$
+\end{itemize}
+%
+\begin{multicols}{2} 
+\begin{enumerate}
+	\item $\vec{v} + \vec{w} = \vec{w} + \vec{v}$
+	\item $(\vec{v}+\vec{w})+\vec{u}=\vec{v}+(\vec{w}+\vec{u})$
+	\item $\vec{v}+0=\vec{v}$
+	\item für jedes $\vec{v} \in V$ gibt es $x \in V:\vec{v}+x=0$
+	\item $1\cdot \vec{v}=\vec{v}$
+	\item $\lambda\cdot(\vec{u}+\vec{v})=\lambda\vec{u}+\lambda\vec{v}$
+	\item$(\lambda+\mu)\vec{v}=\lambda\vec{v}+\mu\vec{v}$
+	\item $(\lambda \cdot \mu)\cdot \vec{v} = \lambda \cdot (\mu\cdot\vec{v})$
+\end{enumerate}
+\end{multicols}
+%
+%
+%
+\subsubsection{Bemerkung :}
+\begin{enumerate}
+	\item $K$-Vektorraum abgekürzt mit $VR$
+	\item negativer Vektor $(-\vec{v})$\\
+		Der negative Vektor ist eindeutig: $\vec{v}+\vec{w}=0 \Rightarrow 
+		\vec{w}=\vec{w}+(\vec{v}+(-\vec{v}))=0+(-\vec{v})=-\vec{v}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beispiel :}
+\begin{enumerate}
+	\item $K^{n}=\{\begin{pmatrix} a_{1} \\ \vdots \\ a_{n} \end{pmatrix} : a \in K\}$ mit $+ 
+		\begin{pmatrix} a_{1} \\ \vdots \\ a_{n} \end{pmatrix} + \begin{pmatrix} b_{1} \\ 
+		\vdots \\ b_{n } \end{pmatrix} = \begin{pmatrix} a_{1} + b_{1} \\ \vdots \\ 
+		a_{n}+b_{n} \end{pmatrix}$\\
+		$\lambda \in K: \lambda\begin{pmatrix}a_{1} \\ \vdots \\ a_{n}\end{pmatrix} =
+		\begin{pmatrix} \lambda a_{1} \\ \vdots \\ \lambda a_{n} \end{pmatrix}$
+	\item $(m\times n)$ - Matrizen $K^{m\times n}$\\
+		$\begin{pmatrix} a_{11} & \cdots & a_{1n}\\
+						\vdots & & \vdots\\
+						a_{m1} & \cdots & a_{mn} \end{pmatrix} + 
+		\begin{pmatrix} b_{11} & \cdots & b_{1n}\\
+						\vdots & & \vdots\\
+						b_{m1} & \cdots & b_{mn} \end{pmatrix} = 
+		\begin{pmatrix} b_{11}+a_{11} & \cdots & b_{1n}+a_{1n}\\
+						\vdots & & \vdots\\
+						b_{m1}+a_{m1} & \cdots & b_{mn}+a_{mn} \end{pmatrix}$\\
+		$\lambda \cdot 
+		\begin{pmatrix} a_{11} & \cdots & a_{1n}\\
+						\vdots & & \vdots\\
+						a_{m1} & \cdots & a_{mn} \end{pmatrix} = 
+		\begin{pmatrix}\lambda a_{11} & \cdots &\lambda a_{1n}\\
+						\vdots & & \vdots\\
+						\lambda a_{m1} & \cdots &\lambda a_{mn} \end{pmatrix}$
+\end{enumerate}
+%
+%
+%
+\subsubsection{Bemerkung :}
+Für eine Matrix gibt es abkürzende Schreibweise: $(a_{ij})$, i-te Zeile, j-te Spalte steht $a_{ij}$. 
+%
+%
+%
+\subsection{Untervektorraum}
+%
+\subsubsection{Definition :}
+$V: K-VR$. $U\subset V$ heißt $K$-Unterraum, wenn $0 \in U$ und aus $a,b \in U: a+b\in U, \lambda \cdot a \in U \, \forall \lambda \in K$\\
+Schreibweise: $U \leq V$ wobei $\leq$ hier bedeutet, das $U$ in $V$ enthalten ist und strukturerhaltend ist. 
+%
+%
+%
+\subsubsection{Beispiel :}
+\begin{itemize}
+	\item $U=\{0\}\, U=V$
+	\item in $\mathbb{R}^{2}:$ Geraden durch den Ursprung
+	\item in $\mathbb{R}^{3}:$ Ebene durch den Nullpunkt alle Unterräume vom Typ 	
+		$\{0\}$, Gerade, Ebene, $\mathbb{R}^{3}$
+	\item $\mathbb{C}^{2}: \lambda \cdot \begin{pmatrix} z_{1} \\ z_{2} \end{pmatrix}$
+\end{itemize}
+%
+%
+%

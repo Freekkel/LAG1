@@ -1,0 +1,51 @@
+\section{Basen}
+\subsubsection{Definition :}
+$V$ ist $K-VR$\\
+$\mathcal{B}=(b_{1},\cdots,b_{n}) \qquad \mathop{\underbrace{x_{1}\vec{b}_{1}+\cdots+x_{n}\vec{b}_{n}}}
+\limits_{\text{Linearkombination}} \,  x \in \mathbb{K}$\\
+\begin{enumerate}
+	\item $\mathcal{B}$ heißt Erzeugendensystem von $V$, wenn es für jedes $v \in V$ 
+		Zahlen $x_{1},\cdots,x_{n}$ gibt, sodass 
+		$v=x_{1}\vec{b}_{1}+\cdots+x_{n}\vec{b}_{n}$. 
+	\item $(b_{1}, \cdots, b_{n})$ heißt linear unabhängig, wenn es 
+		$x_{1}b_{1}+\cdots+x_{n}b_{n}=\vec{0}$ folgt $x_{1}=\cdots=x_{n}=0$\\
+		lineare Abhängigkeit $\Leftrightarrow \exists$ nicht triviale Lösung der 
+		Linearkombination.
+	\item $\mathcal{B}$ heißt Basis, wenn $\mathcal{B}$ ein Erzeugendensystem und linear 
+		unabhägig ist. 
+\end{enumerate}
+%
+%
+%
+\subsubsection{Beispiel :}
+$v=\begin{pmatrix} 1 \\ 2 \end{pmatrix},\, w= \begin{pmatrix} 2 \\ 4 \end{pmatrix} \Rightarrow w-2v=\vec{0}$ linear abhängig \\
+$e_{1}=\begin{pmatrix} 1 \\ 0 \end{pmatrix} \, e_{2}=\begin{pmatrix} 0 \\ 1 \end{pmatrix}$ Angenommen $\begin{pmatrix} 0 \\ 0 \end{pmatrix} = x_{1}\begin{pmatrix} 1 \\ 0 \end{pmatrix} + x_{2} \begin{pmatrix} 0 \\ 1 \end{pmatrix} = \begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix} \Rightarrow x_{1} = 0 = x_{2}$ 
+%
+%
+%
+\subsubsection{Definition :}
+$\mathcal{B} = (b_{1},\cdots,b_{n})$ Basis. Dann heißt $n$ Dimension von $V$. \\
+$v \in V, \, \mathcal{B}=(b_{1},\cdots,b_{n})$ Basis. Dann ist die Linearkombination $v=x_{1}\vec{b}_{1}+\cdots+x_{n}\vec{b}_{n}$ eindeutig.\\
+$v=x_{1}b_{1}+\cdots+x_{n}b_{n}=y_{1}b_{1}+\cdots+y_{n}b_{n} \Rightarrow (x_{1}-y_{1})b_{1}+\cdots+(x_{n}-y_{n})b_{n}=0 \Rightarrow x_{1} = y_{1}, \cdots, x_{n}=y_{n}$ 
+%
+%
+%
+\subsubsection{Beispiel :}
+$K^{n}:(
+\begin{pmatrix} 1\\ 0\\ \vdots\\ 0 \end{pmatrix},\cdots,\begin{pmatrix} 0 \\ 0 \\ \vdots \\ 1 \end{pmatrix})$ $K^{m\times n} =$ ($E_{ij}$ = Matrix, die in der i-ten Zeile und j-ten Spalte einen Eintrag 1 hat, sonst 0)
+%
+%
+%
+\subsubsection{Satz :}
+$V,W$ zwei $K-VR$. Die direkte Summe $V\oplus W:=\{(v,w)|v\in V,w\in W\}$ und komponentenweise Addition und Skalarmultiplikation. 
+%
+%
+%
+\subsubsection{Beiweis (exemplarisch):}
+$(0v,0w)+(v,w)=(0v+v,0w+w)=(v,w)$\\
+$(v,w)+(-v,-w)=(0,0)$ usw. 
+%
+%
+%
+\subsubsection{Beispiel :}
+$\mathbb{R} \oplus \mathbb{R} = \mathbb{R}^{2}$
