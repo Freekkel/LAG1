@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  6 MAR 2013 22:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.25)  7 MAR 2013 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -725,7 +725,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-No file lag.aux.
+(./lag.aux)
 \openout1 = `lag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -742,7 +742,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 56.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 56.
@@ -794,13 +794,15 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 56.
 LaTeX Info: Redefining \pageref on input line 56.
 LaTeX Info: Redefining \nameref on input line 56.
+
+(./lag.out) (./lag.out)
 \@outlinefile=\write3
 \openout3 = `lag.out'.
 
-
-(./front/title.tex
+ (./front/title.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
@@ -816,9 +818,10 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 LaTeX Font Info:    Try loading font information for U+stmry on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-<front/pics/Logo.jpg, id=4, 986.68625pt x 670.505pt>
+<front/pics/Logo.jpg, id=100, 986.68625pt x 670.505pt>
 File: front/pics/Logo.jpg Graphic file (type jpg)
- <use front/pics/Logo.jpg>
+
+<use front/pics/Logo.jpg>
 Package pdftex.def Info: front/pics/Logo.jpg used on input line 8.
 (pdftex.def)             Requested size: 197.33376pt x 134.09862pt.
 
@@ -878,15 +881,15 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
+) (./lag.toc)
 \tf@toc=\write4
 \openout4 = `lag.toc'.
 
-) [3] [4
+) [3]
+[4
 
 
-]
-(./mainmatter/chapter_0.tex
+] (./mainmatter/chapter_0.tex
 Kapitel 0.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -918,7 +921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<mainmatter/chapter0/pics/menge.png, id=64, 578.16pt x 495.8525pt>
+<mainmatter/chapter0/pics/menge.png, id=186, 578.16pt x 495.8525pt>
 File: mainmatter/chapter0/pics/menge.png Graphic file (type png)
 
 <use mainmatter/chapter0/pics/menge.png>
@@ -955,7 +958,8 @@ E/m/n/10 ù\OML/cmm/m/it/10 ; \OMX/MnSymbolE/m/n/10 ò\OT1/cmr/m/n/10 1\OML/cmm/m
 n/10 ùù$ 
  []
 
-<mainmatter/chapter0/pics/durchschnitt.png, id=88, 1313.90875pt x 1128.215pt>
+
+<mainmatter/chapter0/pics/durchschnitt.png, id=206, 1313.90875pt x 1128.215pt>
 File: mainmatter/chapter0/pics/durchschnitt.png Graphic file (type png)
 
 <use mainmatter/chapter0/pics/durchschnitt.png>
@@ -973,7 +977,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 [3 <./mainmatter/chapter0/pics/durchschnitt.png>]
-<mainmatter/chapter0/pics/graphenkreis.png, id=104, 813.0375pt x 697.60625pt>
+<mainmatter/chapter0/pics/graphenkreis.png, id=222, 813.0375pt x 697.60625pt>
 File: mainmatter/chapter0/pics/graphenkreis.png Graphic file (type png)
 
 <use mainmatter/chapter0/pics/graphenkreis.png>
@@ -995,7 +999,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--109
 
  []
 
-<mainmatter/chapter0/pics/abbildungen.jpg, id=105, 603.25375pt x 442.65375pt>
+<mainmatter/chapter0/pics/abbildungen.jpg, id=223, 603.25375pt x 442.65375pt>
 File: mainmatter/chapter0/pics/abbildungen.jpg Graphic file (type jpg)
 
 <use mainmatter/chapter0/pics/abbildungen.jpg>
@@ -1021,7 +1025,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
 (./mainmatter/chapter1/raumr2.tex
-<mainmatter/chapter1/pics/vektor.png, id=130, 435.6275pt x 273.02pt>
+<mainmatter/chapter1/pics/vektor.png, id=248, 435.6275pt x 273.02pt>
 File: mainmatter/chapter1/pics/vektor.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/vektor.png>
@@ -1052,7 +1056,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
-<mainmatter/chapter1/pics/mehrvektoren.png, id=131, 353.32pt x 252.945pt>
+<mainmatter/chapter1/pics/mehrvektoren.png, id=249, 353.32pt x 252.945pt>
 File: mainmatter/chapter1/pics/mehrvektoren.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/mehrvektoren.png>
@@ -1095,7 +1099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--33
 
 [8 <./mainmatter/chapter1/pics/mehrvektoren.png>])
 (./mainmatter/chapter1/geraden.tex
-<mainmatter/chapter1/pics/orthovek.png, id=159, 353.32pt x 241.90375pt>
+<mainmatter/chapter1/pics/orthovek.png, id=275, 353.32pt x 241.90375pt>
 File: mainmatter/chapter1/pics/orthovek.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/orthovek.png>
@@ -1108,7 +1112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--37
  []
 
 [9 <./mainmatter/chapter1/pics/orthovek.png>]
-<mainmatter/chapter1/pics/bsp12.png, id=175, 863.225pt x 836.12375pt>
+<mainmatter/chapter1/pics/bsp12.png, id=289, 863.225pt x 836.12375pt>
 File: mainmatter/chapter1/pics/bsp12.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bsp12.png>
@@ -1136,7 +1140,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<mainmatter/chapter1/pics/matrixmult.png, id=176, 453.695pt x 294.09875pt>
+<mainmatter/chapter1/pics/matrixmult.png, id=290, 453.695pt x 294.09875pt>
 File: mainmatter/chapter1/pics/matrixmult.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/matrixmult.png>
@@ -1200,7 +1204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--72
 
  []
 
-[13] <mainmatter/chapter1/pics/grafik13.png, id=219, 287.0725pt x 266.9975pt>
+[13] <mainmatter/chapter1/pics/grafik13.png, id=332, 287.0725pt x 266.9975pt>
 File: mainmatter/chapter1/pics/grafik13.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/grafik13.png>
@@ -1209,7 +1213,7 @@ ne 92.
 (pdftex.def)             Requested size: 91.04742pt x 84.6791pt.
 )
 (./mainmatter/chapter1/satz_von_pythagoras_laenge_und_skalarprodukt.tex
-<mainmatter/chapter1/pics/parallelogram.png, id=220, 471.7625pt x 376.40625pt>
+<mainmatter/chapter1/pics/parallelogram.png, id=333, 471.7625pt x 376.40625pt>
 File: mainmatter/chapter1/pics/parallelogram.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/parallelogram.png>
@@ -1217,7 +1221,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/parallelogram.png used on inp
 ut line 3.
 (pdftex.def)             Requested size: 159.3382pt x 127.13213pt.
 
-<mainmatter/chapter1/pics/pyth.png, id=221, 203.76125pt x 210.7875pt>
+<mainmatter/chapter1/pics/pyth.png, id=334, 203.76125pt x 210.7875pt>
 File: mainmatter/chapter1/pics/pyth.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/pyth.png>
@@ -1229,7 +1233,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./mainmatter/chapter1/pics/grafik13.png> <./mainmatter/chapter1/pics/para
 llelogram.png>]
-<mainmatter/chapter1/pics/satzdesthales.png, id=234, 526.96875pt x 269.005pt>
+<mainmatter/chapter1/pics/satzdesthales.png, id=346, 526.96875pt x 269.005pt>
 File: mainmatter/chapter1/pics/satzdesthales.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/satzdesthales.png>
@@ -1242,7 +1246,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [15 <./mainmatter/chapter1/pics/pyth.png>]
-<mainmatter/chapter1/pics/heohensatz.png, id=248, 513.92pt x 280.04625pt>
+<mainmatter/chapter1/pics/heohensatz.png, id=360, 513.92pt x 280.04625pt>
 File: mainmatter/chapter1/pics/heohensatz.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/heohensatz.png>
@@ -1261,7 +1265,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--1
 
 [16 <./mainmatter/chapter1/pics/satzdesthales.png> <./mainmatter/chapter1/pics/
 heohensatz.png>]
-<mainmatter/chapter1/pics/bewegung.png, id=262, 589.20125pt x 181.67876pt>
+<mainmatter/chapter1/pics/bewegung.png, id=374, 589.20125pt x 181.67876pt>
 File: mainmatter/chapter1/pics/bewegung.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bewegung.png>
@@ -1283,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--74
 
  []
 
-<mainmatter/chapter1/pics/bewegung2.png, id=273, 111.41624pt x 109.40875pt>
+<mainmatter/chapter1/pics/bewegung2.png, id=384, 111.41624pt x 109.40875pt>
 File: mainmatter/chapter1/pics/bewegung2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bewegung2.png>
@@ -1296,7 +1300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--100
  []
 
 [18 <./mainmatter/chapter1/pics/bewegung2.png>]
-<mainmatter/chapter1/pics/bewegung3.png, id=288, 413.545pt x 415.5525pt>
+<mainmatter/chapter1/pics/bewegung3.png, id=399, 413.545pt x 415.5525pt>
 File: mainmatter/chapter1/pics/bewegung3.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/bewegung3.png>
@@ -1357,7 +1361,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--72
 
  []
 
-[20] <mainmatter/chapter1/pics/winkelsumme.png, id=308, 262.9825pt x 192.72pt>
+[20] <mainmatter/chapter1/pics/winkelsumme.png, id=417, 262.9825pt x 192.72pt>
 File: mainmatter/chapter1/pics/winkelsumme.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/winkelsumme.png>
@@ -1369,7 +1373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--106
 
  []
 
-<mainmatter/chapter1/pics/winkeladd.png, id=309, 663.47874pt x 215.80624pt>
+<mainmatter/chapter1/pics/winkeladd.png, id=418, 663.47874pt x 215.80624pt>
 File: mainmatter/chapter1/pics/winkeladd.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/winkeladd.png>
@@ -1377,7 +1381,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/winkeladd.png used on input l
 ine 116.
 (pdftex.def)             Requested size: 136.5746pt x 44.42168pt.
 
-<mainmatter/chapter1/pics/para.png, id=310, 246.9225pt x 515.9275pt>
+<mainmatter/chapter1/pics/para.png, id=419, 246.9225pt x 515.9275pt>
 File: mainmatter/chapter1/pics/para.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/para.png>
@@ -1386,7 +1390,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/para.png used on input line 1
 (pdftex.def)             Requested size: 45.52718pt x 95.12231pt.
  [21 <./mainmatter/chapter1/pics/winkelsumme.png> <./mainmatter/chapter1/pics/w
 inkeladd.png>]
-<mainmatter/chapter1/pics/gleichbeweis.png, id=321, 347.2975pt x 405.515pt>
+<mainmatter/chapter1/pics/gleichbeweis.png, id=430, 347.2975pt x 405.515pt>
 File: mainmatter/chapter1/pics/gleichbeweis.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/gleichbeweis.png>
@@ -1409,7 +1413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--141
  []
 
 ) (./mainmatter/chapter1/trigonometrische_funktionen.tex
-<mainmatter/chapter1/pics/trigo1.png, id=322, 253.94875pt x 208.78pt>
+<mainmatter/chapter1/pics/trigo1.png, id=431, 253.94875pt x 208.78pt>
 File: mainmatter/chapter1/pics/trigo1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/trigo1.png>
@@ -1438,7 +1442,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--46
  []
 
 [23 <./mainmatter/chapter1/pics/trigo1.png>]
-<mainmatter/chapter1/pics/trigo2.png, id=347, 230.8625pt x 163.61125pt>
+<mainmatter/chapter1/pics/trigo2.png, id=456, 230.8625pt x 163.61125pt>
 File: mainmatter/chapter1/pics/trigo2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/trigo2.png>
@@ -1450,7 +1454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<mainmatter/chapter1/pics/trigo3.png, id=348, 130.4875pt x 130.4875pt>
+<mainmatter/chapter1/pics/trigo3.png, id=457, 130.4875pt x 130.4875pt>
 File: mainmatter/chapter1/pics/trigo3.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/trigo3.png>
@@ -1463,7 +1467,7 @@ Overfull \hbox (12.21924pt too wide) in paragraph at lines 104--117
  []
 
 ) (./mainmatter/chapter1/abstaende.tex
-<mainmatter/chapter1/pics/gerade.png, id=349, 326.21875pt x 261.97874pt>
+<mainmatter/chapter1/pics/gerade.png, id=458, 326.21875pt x 261.97874pt>
 File: mainmatter/chapter1/pics/gerade.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/gerade.png>
@@ -1472,7 +1476,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/gerade.png used on input line
 (pdftex.def)             Requested size: 91.04742pt x 73.11769pt.
  [24 <./mainmatter/chapter1/pics/trigo2.png> <./mainmatter/chapter1/pics/trigo3
 .png>]
-<mainmatter/chapter1/pics/abstd1.png, id=369, 247.92625pt x 205.76875pt>
+<mainmatter/chapter1/pics/abstd1.png, id=478, 247.92625pt x 205.76875pt>
 File: mainmatter/chapter1/pics/abstd1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/abstd1.png>
@@ -1480,7 +1484,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/abstd1.png used on input line
  41.
 (pdftex.def)             Requested size: 68.28383pt x 56.67291pt.
 
-<mainmatter/chapter1/pics/abstd2.png, id=370, 306.14375pt x 209.78375pt>
+<mainmatter/chapter1/pics/abstd2.png, id=479, 306.14375pt x 209.78375pt>
 File: mainmatter/chapter1/pics/abstd2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/abstd2.png>
@@ -1494,7 +1498,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
-<mainmatter/chapter1/pics/dreieck1.png, id=409, 486.81876pt x 341.275pt>
+<mainmatter/chapter1/pics/dreieck1.png, id=516, 486.81876pt x 341.275pt>
 File: mainmatter/chapter1/pics/dreieck1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/dreieck1.png>
@@ -1502,7 +1506,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/dreieck1.png used on input li
 ne 72.
 (pdftex.def)             Requested size: 91.04742pt x 63.82747pt.
  [27 <./mainmatter/chapter1/pics/dreieck1.png>]
-<mainmatter/chapter1/pics/dreieck2.png, id=429, 483.8075pt x 316.18124pt>
+<mainmatter/chapter1/pics/dreieck2.png, id=536, 483.8075pt x 316.18124pt>
 File: mainmatter/chapter1/pics/dreieck2.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/dreieck2.png>
@@ -1510,7 +1514,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/dreieck2.png used on input li
 ne 94.
 (pdftex.def)             Requested size: 91.04742pt x 59.50093pt.
 
-<mainmatter/chapter1/pics/feuerbachkreis.png, id=430, 2041.6275pt x 1318.9275pt
+<mainmatter/chapter1/pics/feuerbachkreis.png, id=537, 2041.6275pt x 1318.9275pt
 >
 File: mainmatter/chapter1/pics/feuerbachkreis.png Graphic file (type png)
  <use mainmatter/chapter1/pics/feuerbachkreis.png>
@@ -1548,7 +1552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
  []
 
 ) (./mainmatter/chapter2/paralellogramgesetz.tex
-<mainmatter/chapter2/pics/para1.png, id=439, 417.56pt x 162.6075pt>
+<mainmatter/chapter2/pics/para1.png, id=546, 417.56pt x 162.6075pt>
 File: mainmatter/chapter2/pics/para1.png Graphic file (type png)
 
 <use mainmatter/chapter2/pics/para1.png>
@@ -1577,7 +1581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--57
  []
 
 
-<mainmatter/chapter3/pics/gauszschezahlenebene.png, id=470, 204.765pt x 141.528
+<mainmatter/chapter3/pics/gauszschezahlenebene.png, id=573, 204.765pt x 141.528
 75pt>
 File: mainmatter/chapter3/pics/gauszschezahlenebene.png Graphic file (type png)
 
@@ -1593,7 +1597,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--69
 
  []
 
-<mainmatter/chapter3/pics/addition.png, id=492, 116.435pt x 70.2625pt>
+<mainmatter/chapter3/pics/addition.png, id=594, 116.435pt x 70.2625pt>
 File: mainmatter/chapter3/pics/addition.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/addition.png>
@@ -1601,7 +1605,7 @@ Package pdftex.def Info: mainmatter/chapter3/pics/addition.png used on input li
 ne 80.
 (pdftex.def)             Requested size: 45.52718pt x 27.473pt.
 
-<mainmatter/chapter3/pics/multiplikation.png, id=493, 384.43625pt x 132.495pt>
+<mainmatter/chapter3/pics/multiplikation.png, id=595, 384.43625pt x 132.495pt>
 File: mainmatter/chapter3/pics/multiplikation.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/multiplikation.png>
@@ -1644,7 +1648,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--103
 
  []
 
-[34] <mainmatter/chapter3/pics/komplexkoord.png, id=537, 481.8pt x 429.605pt>
+[34] <mainmatter/chapter3/pics/komplexkoord.png, id=638, 481.8pt x 429.605pt>
 File: mainmatter/chapter3/pics/komplexkoord.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/komplexkoord.png>
@@ -1662,7 +1666,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--126
  []
 
 [35 <./mainmatter/chapter3/pics/komplexkoord.png>]
-<mainmatter/chapter3/pics/zrechnungen.png, id=551, 593.21625pt x 503.8825pt>
+<mainmatter/chapter3/pics/zrechnungen.png, id=652, 593.21625pt x 503.8825pt>
 File: mainmatter/chapter3/pics/zrechnungen.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/zrechnungen.png>
@@ -1693,7 +1697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
 
 ]
-(./backmatter/listoffigures.tex
+(./backmatter/listoffigures.tex (./lag.lof)
 \tf@lof=\write5
 \openout5 = `lag.lof'.
 
@@ -1707,22 +1711,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./lag.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
-
-
-Package rerunfilecheck Warning: File `lag.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lag.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B6B0EA6D0E58AA81C74447434EAF745A;1512.
+Package rerunfilecheck Info: File `lag.out' has not changed.
+(rerunfilecheck)             Checksum: B6B0EA6D0E58AA81C74447434EAF745A;1512.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 14067 strings out of 493485
- 206161 string characters out of 3143526
- 329143 words of memory out of 3000000
- 16614 multiletter control sequences out of 15000+200000
+ 14105 strings out of 493485
+ 206593 string characters out of 3143526
+ 329247 words of memory out of 3000000
+ 16641 multiletter control sequences out of 15000+200000
  39713 words of font info for 125 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,17n,47p,834b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1753,10 +1750,10 @@ frm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 sx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on lag.pdf (49 pages, 2407795 bytes).
+Output written on lag.pdf (49 pages, 2416191 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 664 compressed objects within 7 object streams
- 368 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 931 PDF objects out of 1000 (max. 8388607)
+ 776 compressed objects within 8 object streams
+ 369 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

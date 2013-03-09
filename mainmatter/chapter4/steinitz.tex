@@ -5,9 +5,27 @@
 \subsection{Basisauswahlsatz}
 $(b_{1},\cdots, b_{n})$ ein Erzeugendensystem von $V \Rightarrow$  es gibt $c_{1},\cdots,c_{2} \in \{b_{1}, \cdots, b_{n}\}:(c_{1},\cdots,c_{s})$ ist Basis
 %
-%
-%
 \subsubsection{Beweis (mit Minimalitätsargument) :}
 Sei $s$ minimal so dass $s$ der $b_{i} \, V$  erzeugen $ \leadsto c_{1},\cdots,c_{s}$\\
 Annahme $c_{1},\cdots,c_{s}$ linear abhängig: $x_{1}c_{1}+\cdots+x_{s}c_{s} = 0$ aber nicht alle Koeffizienten sind $0$, z.B. $x_{3} \neq 0$\\
-$\Rightarrow c_{s}=\frac{-1}{x_{s}}(x_{1}c_{1}+\cdots+x_{s-1}c_{s-1}$
+$\Rightarrow c_{s}=\frac{-1}{x_{s}}(x_{1}c_{1}+\cdots+x_{s-1}c_{s-1}$\\
+$v\in V: v=\lambda_{1}c_{1}+\cdots+\lambda_{s}c_{s}=(\lambda_{1}-\frac{\lambda_{s}x_{1}}{x_{s}})c_{1}+(\lambda_{2}-\frac{\lambda_{s}x_{2}}{x_{s}})c_{2}+\cdots+(\lambda_{s-1}+\frac{\lambda_{s}x_{s-1}}{x_{s}})c_{s-1} \qquad \lightning \qquad \square$
+%
+%
+%
+\subsection{Austauschsatz von Steinitz}
+Sei $(a_{1},\cdots,a_{k})$ linear unabhängig. $(b_{1},\cdots,b_{n})$ Erzeugendensystem. Dann ist $k\leq n$ und es gibt $c_{k+q},\cdots,c_{n} \in \{b_{1},\cdots,b_{n}\}:(a_{1},\cdots,a_{k},c_{k+1},\cdots,c_{n})$ den $VR \, V$ erzeugen.
+%
+\subsubsection{Beweis (durch vollständige Induktion) :}
+$k=0$ ( "`Die Aussage ist trivial"')\\
+Schritt von $k$ auf $(k+1)$: \\
+Induktionsannahme $\Rightarrow \exists c_{k+1},\cdots,c_{n} \in \{b_{1},\cdots,b_{n}\}$, so dass $(a_{1},\cdots,a_{k-1},c_{k},\cdots,c_{n})$ erzeugen $V$. \\
+$a_{k}=\lambda a_{1}+\cdots+\lambda_{k-1}a_{k-1}+\mu_{k}c_{k}+\cdots+\mu_{n}c_{n}$. \\
+Beachte: $\mu$, sind nicht alle Nullstellen z.B. $\mu k \neq 0$\\
+$c_{k}=\frac{1}{\mu_{k}}(a_{k}-\lambda_{1}a_{1}-\cdots-\lambda_{k-1}a_{k-1}-\mu_{k+1}c_{k+1}-\cdots-\mu_{n}c_{n}) \Rightarrow k \leq n$\\
+$v\in V: v = x_{1}a_{1}+\cdots+x_{k-1}a_{k-1}+x_{k}c_{k}+\cdots+x_{n}c_{n}=(x_{1}-x_{k}\frac{\lambda}{\mu_{k}})a_{1}+\cdots+(x_{k-1}-x_{k}\frac{\lambda_{k-1}}{\mu_{k}})a_{k-1}+\frac{x_{k}}{\mu_{k}}a_{k}+(x_{k+1}-x_{k}\frac{\mu_{k-1}}{\mu_{k}}+\cdots+ \Rightarrow (a_{1},\cdots,a_{k},c_{k+1},\cdots,\c_{n})$ erzeugen $V$. 
+%
+\subsubsection{Korollar (Wohldefiniertheit einer Basis eines Vektorraums) :}
+Je zwei endliche Basen haben gleiche Mächtigkeit
+%
+\subsubsection{Beweis :}
